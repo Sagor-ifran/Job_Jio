@@ -235,7 +235,6 @@ button {
 }
 
 .common_btn_2 {
-    overflow: hidden;
     background: linear-gradient(180deg, #3F6BEE 0%, #214BD6 100%);
     box-shadow: 0px 2px 6px 0px rgba(20, 56, 181, 0.50);
 }
@@ -325,6 +324,60 @@ button {
     border-color: var(--colorSecondary);
 }
 
+/* breadcrumb start */
+
+.wsus__breadcrumb {
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.wsus__breadcrumbs_overly {
+    background: linear-gradient(266deg, rgba(58, 102, 234, 0.90) 0%, rgba(19, 61, 186, 0.90) 0.01%, rgba(9, 27, 83, 0.90) 100%);
+}
+
+.wsus___breadcrumb_text {
+    padding: 225px 0px 135px;
+    text-align: center;
+}
+
+.wsus___breadcrumb_text h1 {
+    font-size: 74px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--colorWhite);
+}
+
+.wsus___breadcrumb_text ul {
+    gap: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.wsus___breadcrumb_text ul li,
+.wsus___breadcrumb_text ul li a {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--colorWhite);
+    text-transform: uppercase;
+}
+
+.wsus___breadcrumb_text ul li a span {
+    display: inline-block;
+    width: 17px;
+    height: 14px;
+    position: relative;
+    top: -3px;
+    margin-right: 2px;
+}
+
+.wsus___breadcrumb_text ul li a i {
+    margin-left: 12px;
+}
+
+/* breadcrumb end */
 
 @keyframes circle_animi {
     from {
@@ -401,7 +454,7 @@ header {
     height: 40px;
     line-height: 40px;
     padding: 0px 30px;
-    z-index: 999;
+    z-index: 99;
     background: var(--colorBlack);
 }
 
@@ -542,7 +595,7 @@ header .wsus__header_right li .nice-select .list {
     -o-transition: all linear .3s;
     padding-left: 160px;
     padding-right: 160px;
-    z-index: 99;
+    z-index: 9;
 }
 
 .main_menu .navbar-brand {
@@ -713,7 +766,7 @@ header .wsus__header_right li .nice-select .list {
 .main_menu.menu_fix {
     top: 0;
     box-shadow: 0px 1px 4px 0px rgba(3, 18, 33, 0.12);
-    z-index: 9999;
+    z-index: 999;
 }
 
 @keyframes menu_animate {
@@ -2483,11 +2536,11 @@ header .wsus__header_right li .nice-select .list {
     -o-border-radius: 6px;
 }
 
-.right_menu ul li .menu_account:hover b {
+.main_menu_2 .right_menu ul li .menu_account:hover b {
     color: var(--colorSecondary);
 }
 
-.right_menu ul li .menu_account:hover span img {
+.main_menu_2 .right_menu ul li .menu_account:hover span img {
     filter: brightness(0) saturate(100%) invert(26%) sepia(90%) saturate(2755%) hue-rotate(221deg) brightness(98%) contrast(97%);
 }
 
@@ -2660,6 +2713,14 @@ header .wsus__header_right li .nice-select .list {
     border-radius: 6px;
 }
 
+.wsus__banner_searchbox_2 .searchbox_4 .common_btn_2::after {
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
 .wsus__banner_searchbox_2 .select2-container .select2-selection--single {
     height: 60px;
 }
@@ -2789,6 +2850,10 @@ header .wsus__header_right li .nice-select .list {
 }
 
 .wsus__category_2_btn .common_btn_2 {
+    border-radius: 6px;
+}
+
+.wsus__category_2_btn .common_btn_2::after {
     border-radius: 6px;
 }
 
@@ -3165,6 +3230,10 @@ header .wsus__header_right li .nice-select .list {
 }
 
 .wsus__explorer_2_btn .common_btn_2::after {
+    border-radius: 6px;
+}
+
+.wsus__explorer_2_btn .common_btn_2::after {
     background: var(--colorSecondary);
 }
 
@@ -3322,6 +3391,10 @@ header .wsus__header_right li .nice-select .list {
     border-radius: 6px;
 }
 
+.wsus__team_2 .wsus__all_team_btn .common_btn_2::after {
+    border-radius: 6px;
+}
+
 .wsus__team_2 .wsus__team_item {
     background: transparent;
     border: 1px solid var(--BorderColor2);
@@ -3394,6 +3467,14 @@ header .wsus__header_right li .nice-select .list {
 
 
 .wsus__spps_download_btn .common_btn_2 {
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.wsus__spps_download_btn .common_btn_2::after {
     border-radius: 6px;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
@@ -3535,6 +3616,14 @@ header .wsus__header_right li .nice-select .list {
 /* location start */
 
 .wsus__carear_location .wsus__all_team_btn .common_btn_2 {
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.wsus__carear_location .wsus__all_team_btn .common_btn_2::after {
     border-radius: 6px;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
@@ -3756,7 +3845,7 @@ header .wsus__header_right li .nice-select .list {
 
 .wsus__footer_left_form input {
     border-radius: 6px;
-    padding: 13px 20px;
+    padding: 13px 60px 13px 20px;
     box-shadow: 0px 10px 60px 0px rgba(3, 18, 33, 0.16);
 }
 
@@ -3770,6 +3859,14 @@ header .wsus__header_right li .nice-select .list {
     font-size: 18px;
     line-height: 40px;
     text-align: center;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.wsus__footer_left_form .common_btn_2::after {
     border-radius: 6px;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
@@ -4242,22 +4339,229 @@ header .wsus__header_right li .nice-select .list {
 
 
 
+/*===================================
+    ABOUT US START
+===================================*/
+
+
+/* header 3 start */
+
+.wsus_header_3 {
+    background: #D7E4EF;
+}
+
+.wsus_header_3 .wsus__header_left li::after {
+    background: rgba(3, 6, 17, 0.20);
+}
+
+.wsus_header_3 .wsus__header_left li a {
+    color: var(--colorBlack);
+}
+
+.wsus_header_3 .wsus__header_left li a i {
+    color: var(--colorBlack);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus_header_3 .wsus__header_left li a:hover {
+    color: var(--colorSecondary);
+}
+
+.wsus_header_3 .wsus__header_left li a:hover i {
+    color: var(--colorSecondary);
+}
+
+.wsus_header_3 .wsus__header_center p {
+    color: var(--colorBlack);
+    border: 1px solid rgba(3, 6, 17, 0.10);
+}
+
+.wsus_header_3 .wsus__header_right li .nice-select .current {
+    color: var(--colorBlack);
+}
+
+.wsus_header_3 .wsus__header_right li .nice-select:after {
+    border-bottom: 2px solid var(--colorBlack);
+    border-right: 2px solid var(--colorBlack);
+}
+
+.wsus_header_3 .wsus__header_right li::after {
+    background: rgba(3, 6, 17, 0.20);
+}
+
+.wsus_header_3 .wsus__header_right li::after {
+    background: var(--colorWhite);
+}
+
+/* header 3 end */
 
 
 
+/* main menu 3 start */
+
+.main_menu_3 .navbar-nav .nav-item .nav-link:hover,
+.main_menu_3 .navbar-nav .nav-item .nav-link.active {
+    color: var(--colorSecondary);
+}
+
+.main_menu_3 .wsus__droap_menu li a:hover,
+.main_menu_3 .wsus__droap_menu li a.active {
+    color: var(--colorSecondary);
+}
+
+.main_menu_3 .wsus__droap_menu li a::after {
+    background: var(--colorSecondary);
+}
+
+.main_menu_3 .right_menu ul li .menu_account:hover b {
+    color: var(--colorSecondary);
+}
+
+.main_menu_3 .right_menu ul li .menu_account:hover span img {
+    filter: brightness(0) saturate(100%) invert(26%) sepia(90%) saturate(2755%) hue-rotate(221deg) brightness(98%) contrast(97%);
+}
+
+/* main menu 3 end */
+
+
+/* about us 2 start */
+
+.wsus__about_us_2 {
+    background: url(../images/about_bg_2.png);
+}
+
+/* about us 2 end */
+
+
+/* blog 3 start */
+
+.wsus__blog_3 {
+    background: var(--colorWhite);
+}
+
+.wsus__blog_3 .wsus__blog_item_text .common_btn::after {
+    background: var(--colorSecondary);
+}
+
+.wsus__blog_3 .wsus__blog_item .img p {
+    background: var(--colorSecondary);
+}
+
+/* blog 3 end */
+
+
+/* footer 3 start */
+
+.wsus__footer_3 {
+    margin-top: 110px;
+}
+
+.wsus__footer_3 .wsus__footer_link ul li a:hover,
+.wsus__footer_link ul li a.active {
+    color: var(--colorSecondary);
+}
+
+.wsus__footer_3 .wsus__footer_link ul li a::after {
+    background: var(--colorSecondary);
+}
+
+.wsus__footer_3 .wsus__footer_right ul li .text a:hover {
+    color: var(--colorSecondary);
+}
+
+.wsus__footer_3 .wsus__footer_right ul li:hover .icon {
+    background: var(--colorSecondary);
+}
+
+.wsus__footer_3 .wsus__copy_right_text p a:hover {
+    color: var(--colorSecondary);
+}
+
+.wsus__footer_3 .wsus__copy_right_text ul li a:hover {
+    color: var(--colorSecondary);
+}
+
+/* footer 3 end */
+
+/*===================================
+    ABOUT US END
+===================================*/
+
+
+/*===================================
+    LOCATION START
+===================================*/
+
+.wsus__location_page .wsus__carear_location_item {
+    margin: 25px 0px 0px 0px;
+}
+
+/*===================================
+    LOCATION END
+===================================*/
 
 
 
+/*===================================
+    JOBS PAGE START
+===================================*/
+
+.wsus__jobs_4 {
+    background: transparent;
+}
+
+.wsus__jobs_4 .wsus_jobs_2_item {
+    margin: 25px 0px 0px 0px;
+    box-shadow: var(--BoxShadow);
+}
+
+/*===================================
+    JOBS PAGE END
+===================================*/
 
 
+/*===================================
+    TESTIMONIAL START
+===================================*/
+
+.wsus__testimonial_page {
+    background: transparent;
+}
+
+.wsus__testimonial_page .wsus__testimonial_item {
+    margin: 25px 0px 0px 0px;
+    box-shadow: var(--BoxShadow);
+}
+
+/*===================================
+    TESTIMONIAL END
+===================================*/
 
 
+/*===================================
+    BLOG PAGE START
+===================================*/
 
+.wsus__blog_page {
+    background: transparent;
+}
 
+.wsus__blog_page .wsus__blog_item .img p {
+    background: var(--colorSecondary);
+}
 
+.wsus__blog_page .wsus__blog_item_text .common_btn::after {
+    background: linear-gradient(180deg, #3F6BEE 0%, #214BD6 100%);
+    box-shadow: 0px 2px 6px 0px rgba(20, 56, 181, 0.50);
+}
 
-
-
+/*===================================
+    BLOG PAGE END
+===================================*/
 
 
 
