@@ -102,7 +102,7 @@ $(function () {
         slidesToShow: 7,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 2500,
         dots: false,
         arrows: true,
         nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
@@ -142,7 +142,7 @@ $(function () {
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 2500,
         dots: false,
         arrows: true,
         nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
@@ -182,7 +182,7 @@ $(function () {
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 4000,
+        autoplaySpeed: 2500,
         dots: true,
         arrows: false,
 
@@ -220,7 +220,7 @@ $(function () {
         slidesToShow: 2,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 4000,
+        autoplaySpeed: 2500,
         dots: true,
         arrows: false,
 
@@ -253,7 +253,42 @@ $(function () {
     });
 
 
+    //=======CAREAR LOCATION======
+    $('.c_location_slider').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2500,
+        dots: false,
+        arrows: false,
 
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    });
 
 
 
