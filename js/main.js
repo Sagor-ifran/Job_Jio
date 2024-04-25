@@ -296,11 +296,23 @@ $(function () {
 
 
 
+    //=======RANGER SLIDER======
+    $('.basic').alRangeSlider();
+    const options = {
+        range: { min: 10, max: 1000, step: 1 },
+        initialSelectedValues: { from: 200, to: 800 },
+        grid: { minTicksStep: 1, marksStep: 5 },
+        theme: "dark",
+    };
+
+    $('.range_slider').alRangeSlider(options);
+    const options2 = {
+        orientation: "vertical"
+    };
 
 
 
-
-    // //=======WOW JS======
+    //=======WOW JS======
     new WOW().init();
 
 
