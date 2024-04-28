@@ -1694,9 +1694,6 @@ header .wsus__header_right li .nice-select .list {
 /* counter end */
 
 
-
-
-
 /* jobs start */
 
 .wsus__jobs_item {
@@ -1715,8 +1712,8 @@ header .wsus__header_right li .nice-select .list {
     height: 40px;
     line-height: 40px;
     text-align: center;
+    display: block;
     background: var(--LightBg);
-    cursor: pointer;
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
@@ -5124,6 +5121,696 @@ header .wsus__header_right li .nice-select .list {
 /*===================================
     CANDIDATES END
 ===================================*/
+
+
+/*===================================
+    PRICING PLAN START
+===================================*/
+
+.wsus__pricing_page .wsus__pricing_item h6 {
+    color: var(--colorSecondary);
+}
+
+.wsus__pricing_page .wsus__pricing_item .common_btn::after {
+    background: var(--colorSecondary);
+
+}
+
+/*===================================
+    PRICING PLAN END
+===================================*/
+
+
+/*===================================
+    TOP COMPANIES START
+===================================*/
+
+.wsus__top_company_page .wsus__sorted_accordion .form-check-label {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.wsus__company_page_item {
+    margin-bottom: 25px;
+    padding: 25px 25px 30px 25px;
+    border: 1px solid var(--BorderColor1);
+}
+
+.wsus__company_page_item_top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.wsus__company_page_item_top .img {
+    display: inline-block;
+    width: 54px;
+    height: 54px;
+    margin-right: 15px;
+}
+
+.wsus__company_page_item_top .text p {
+    margin-top: 4px;
+}
+
+.wsus__company_page_item_top .text p span {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: -2px;
+}
+
+.wsus__company_page_item .wsus__common_skill {
+    margin-top: 20px;
+}
+
+.wsus__company_page_item .wsus__common_skill li a:hover {
+    background: var(--colorSecondary);
+    border-color: var(--colorSecondary);
+}
+
+.wsus__company_page_item .link {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 23px;
+    color: var(--colorBlack);
+    text-transform: capitalize;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__company_page_item .link:hover {
+    color: var(--colorSecondary);
+}
+
+.wsus__company_page_item .link span {
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    width: 22px;
+    height: 22px;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    margin-left: 2px;
+    color: var(--colorBlack);
+    background: #F2F3F5;
+    border-radius: 50%;
+    margin-right: 0;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__company_page_item .link span i {
+    margin-left: 1px;
+}
+
+.wsus__company_page_item .link:hover span {
+    color: var(--colorWhite);
+    background: var(--colorSecondary);
+    margin-left: 10px;
+}
+
+/*===================================
+    TOP COMPANIES END
+===================================*/
+
+
+/*===================================
+    JOB DETAILS START
+===================================*/
+
+.wsus__job_details_top_left h2 {
+    font-size: 34px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.wsus__job_details_top .wsus__jobs_benifits {
+    margin-top: 20px;
+}
+
+.wsus__job_details_top .wsus__common_skill {
+    margin-top: 28px;
+}
+
+.wsus__job_details_top .wsus__common_skill li a:hover {
+    background: var(--colorSecondary);
+    border-color: var(--colorSecondary);
+}
+
+.wsus__job_details_top_right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+.wsus__job_details_top_right .common_btn {
+    padding: 13px 110px 13px 110px;
+}
+
+.wsus__job_details_top_right .badgh {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: var(--LightBg);
+    transition: all 0.3s linear 0s;
+    margin-left: 10px;
+}
+
+.wsus__job_details_top_right .badgh img {
+    width: 18px !important;
+    height: 18px !important;
+}
+
+.wsus__job_details_top_right .badgh:hover {
+    background: var(--colorSecondary);
+}
+
+.wsus__job_details_top_right .badgh:hover img {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(92%) saturate(0%) hue-rotate(205deg) brightness(107%) contrast(100%);
+}
+
+.wsus__job_details_img {
+    height: 530px;
+    margin-top: 55px;
+}
+
+.wsus__job_details_left h4 {
+    font-size: 26px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.wsus__job_details_left p {
+    margin-top: 23px;
+    line-height: 26px;
+    color: rgba(3, 18, 33, 0.70);
+}
+
+.wsus__job_details_left ul li {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 28px;
+    color: rgba(3, 18, 33, 0.70);
+    position: relative;
+    padding-left: 15px;
+}
+
+.wsus__job_details_left ul li::after {
+    position: absolute;
+    content: "";
+    top: 11px;
+    left: 0px;
+    width: 3px;
+    height: 3px;
+    background: rgba(3, 18, 33, 0.7);
+    border-radius: 50%;
+}
+
+.wsus__related_jobs {
+    margin-top: 105px;
+}
+
+.wsus__related_jobs h3 {
+    font-size: 36px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.wsus__related_jobs .wsus__jobs_item {
+    background: transparent;
+    box-shadow: none;
+    border: 1px solid var(--BorderColor2);
+}
+
+.wsus__related_jobs .wsus__jobs_item .badgh:hover {
+    background: var(--colorSecondary);
+}
+
+.wsus__related_jobs .wsus__common_skill li a:hover {
+    background: var(--colorSecondary);
+}
+
+.wsus__related_jobs .wsus__jobs_item_bottom .common_btn:after {
+    background: var(--colorSecondary);
+}
+
+.wsus__job_details_right {
+    margin-top: 60px;
+}
+
+.wsus__sidebar_wizard {
+    margin-top: 30px;
+    padding: 35px 35px 40px 35px;
+    border: 1px solid var(--BorderColor2);
+}
+
+.wsus__job_information {
+    margin-top: 25px;
+}
+
+.wsus__job_information li {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.wsus__job_information li span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 14px;
+}
+
+.wsus__job_information li .text h6 {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.wsus__job_information li .text p {
+    margin-top: 2px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.wsus__common_skill li a:hover {
+    background: var(--colorSecondary);
+    border-color: var(--colorSecondary);
+}
+
+.wsus__sidebar_map {
+    margin-top: 25px;
+}
+
+.wsus__sidebar_map iframe {
+    width: 100%;
+    height: 430px;
+}
+
+.wsus__sidebar_form .input,
+.wsus__sidebar_form .textarea {
+    margin-top: 15px;
+}
+
+.wsus__sidebar_form button {
+    margin-top: 24px;
+}
+
+.wsus__sidebar_bottom {
+    margin-top: 35px;
+}
+
+.wsus__sidebar_bottom h5 {
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.wsus__sidebar_bottom ul {
+    gap: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.wsus__sidebar_bottom ul li a {
+    display: block;
+    width: 44px;
+    height: 44px;
+    overflow: hidden;
+    border-radius: 50% !important;
+    padding: 1px;
+}
+
+/*===================================
+    JOB DETAILS END
+===================================*/
+
+
+/*===================================
+    COMPANY DETAILS START
+===================================*/
+
+.wsus__company_details_top_bg {
+    margin-top: 114px;
+    height: 370px;
+}
+
+.wsus__company_details_top {
+    padding-bottom: 40px;
+    border-bottom: 1px dashed rgba(3, 18, 33, 0.24);
+}
+
+.wsus__company_details_logo {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    border: 1px solid var(--BorderColor1);
+    background: var(--colorWhite);
+    margin-top: -50px;
+}
+
+.wsus__company_details_top_left h5 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.wsus__company_details_top_left h5 span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: -3px;
+}
+
+.wsus__company_details_top_left p {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(3, 18, 33, 0.50);
+    margin-top: 15px;
+}
+
+.wsus__company_details_top_left p i {
+    margin-right: 8px;
+}
+
+.wsus__company_details_social_media {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 23px;
+}
+
+.wsus__company_details_social_media h6 {
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-right: 6px;
+}
+
+.wsus__company_details_social_media ul {
+    gap: 4px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wsus__company_details_social_media ul li a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 50% !important;
+    padding: 1px;
+}
+
+.wsus__company_details_top_right {
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    margin-top: 50px;
+}
+
+.wsus__company_details_top_right .common_btn {
+    padding: 10px 30px 12px 30px;
+}
+
+.wsus__company_details_top_right .common_btn i {
+    margin-left: 0;
+    margin-right: 7px;
+}
+
+.wsus__company_details_top_right .btn_light::after {
+    background: var(--colorSecondary);
+}
+
+.wsus__company_details_left {
+    margin-top: 65px;
+}
+
+.wsus__company_details_left h4 {
+    font-size: 26px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.wsus__company_details_left p {
+    line-height: 26px;
+    color: rgba(3, 18, 33, 0.70);
+    margin-top: 23px;
+}
+
+.wsus__company_details_left ul li {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 28px;
+    color: rgba(3, 18, 33, 0.70);
+    position: relative;
+    padding-left: 15px;
+}
+
+.wsus__company_details_left ul li::after {
+    position: absolute;
+    content: "";
+    top: 11px;
+    left: 0px;
+    width: 3px;
+    height: 3px;
+    background: rgba(3, 18, 33, 0.7);
+    border-radius: 50%;
+}
+
+.wsus__company_details .wsus__related_jobs {
+    margin-top: 90px;
+}
+
+.wsus__company_details .wsus__related_jobs h3 {
+    font-size: 26px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wsus__company_details_right {
+    margin-top: 70px;
+    padding: 35px 30px 35px 30px;
+    border: 1px solid var(--BorderColor1);
+}
+
+.wsus__company_details_right h4 {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.wsus__company_details_right .location {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(3, 18, 33, 0.50);
+    margin-top: 15px;
+}
+
+.wsus__company_details_right .location i {
+    margin-right: 8px;
+}
+
+.wsus__company_details_right_map {
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid var(--BorderColor1);
+}
+
+.wsus__company_details_right_map iframe {
+    width: 100%;
+    height: 430px;
+}
+
+.wsus__company_details_right .wsus__job_information {
+    padding-top: 12px;
+    border-top: 1px solid var(--BorderColor1);
+}
+
+.wsus__company_details_right_address {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid var(--BorderColor1);
+}
+
+.wsus__company_details_right_address li {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 8px;
+    color: rgba(3, 18, 33, 0.70);
+    position: relative;
+    padding-left: 15px;
+}
+
+.wsus__company_details_right_address li::after {
+    position: absolute;
+    content: "";
+    top: 11px;
+    left: 0px;
+    width: 3px;
+    height: 3px;
+    background: rgba(3, 18, 33, 0.7);
+    border-radius: 50%;
+}
+
+.wsus__company_details_right .common_btn {
+    margin-top: 20px;
+}
+
+.wsus__company_details_right form {
+    margin-top: 28px;
+    padding-top: 30px;
+    border-top: 1px solid var(--BorderColor1);
+}
+
+.wsus__company_details_right form h5 {
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.wsus__company_details_right form .input,
+.wsus__company_details_right form .textarea {
+    margin-top: 15px;
+}
+
+.wsus__company_details_right button i {
+    margin-left: 6px;
+}
+
+
+
+.wsus__company_details_hireing {
+    padding: 30px;
+    margin-top: 30px;
+    background: linear-gradient(180deg, #B323E6 0%, #9823E6 100%);
+    box-shadow: 0px 10px 10px 0px rgba(152, 35, 230, 0.30);
+}
+
+
+.wsus__company_details_hireing .text {
+    padding: 35px 25px 35px 25px;
+    background: rgba(255, 255, 255, 0.14);
+    backdrop-filter: blur(60px);
+}
+
+.wsus__company_details_hireing h2 {
+    font-size: 80px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: var(--colorWhite);
+}
+
+.wsus__company_details_hireing .black_btn {
+    padding: 5px 30px 7px 30px;
+    background: var(--colorBlack);
+    margin-top: 10px;
+}
+
+.wsus__company_details_hireing .black_btn::after {
+    background: var(--colorWhite);
+}
+
+.wsus__company_details_hireing .black_btn:hover {
+    color: var(--colorBlack);
+}
+
+.wsus__company_details_hireing {}
+
+
+.wsus__company_details_hireing ul {
+    margin-top: 35px;
+}
+
+.wsus__company_details_hireing ul li {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 40px;
+    position: relative;
+    padding-left: 15px;
+    text-transform: uppercase;
+    color: var(--colorWhite);
+}
+
+.wsus__company_details_hireing ul li::after {
+    position: absolute;
+    content: "";
+    top: 18px;
+    left: 0px;
+    width: 3px;
+    height: 3px;
+    background: var(--colorWhite);
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===================================
+    COMPANY DETAILS END
+===================================*/
+
+
 
 
 
