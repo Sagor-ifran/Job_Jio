@@ -5378,6 +5378,12 @@ header .wsus__header_right li .nice-select .list {
     border: 1px solid var(--BorderColor2);
 }
 
+.wsus__sidebar_wizard h4 {
+    font-size: 26px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
 .wsus__job_information {
     margin-top: 25px;
 }
@@ -5407,7 +5413,7 @@ header .wsus__header_right li .nice-select .list {
     font-weight: 500;
 }
 
-.wsus__common_skill li a:hover {
+.wsus__sidebar_wizard .wsus__common_skill li a:hover {
     background: var(--colorSecondary);
     border-color: var(--colorSecondary);
 }
@@ -5605,36 +5611,6 @@ header .wsus__header_right li .nice-select .list {
     text-transform: capitalize;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .wsus__company_details_right {
     margin-top: 70px;
     padding: 35px 30px 35px 30px;
@@ -5727,8 +5703,6 @@ header .wsus__header_right li .nice-select .list {
     margin-left: 6px;
 }
 
-
-
 .wsus__company_details_hireing {
     padding: 30px;
     margin-top: 30px;
@@ -5736,9 +5710,8 @@ header .wsus__header_right li .nice-select .list {
     box-shadow: 0px 10px 10px 0px rgba(152, 35, 230, 0.30);
 }
 
-
 .wsus__company_details_hireing .text {
-    padding: 35px 25px 35px 25px;
+    padding: 15px 25px 45px 25px;
     background: rgba(255, 255, 255, 0.14);
     backdrop-filter: blur(60px);
 }
@@ -5763,9 +5736,6 @@ header .wsus__header_right li .nice-select .list {
 .wsus__company_details_hireing .black_btn:hover {
     color: var(--colorBlack);
 }
-
-.wsus__company_details_hireing {}
-
 
 .wsus__company_details_hireing ul {
     margin-top: 35px;
@@ -5792,7 +5762,958 @@ header .wsus__header_right li .nice-select .list {
     border-radius: 50%;
 }
 
+.wsus__company_details_hireing .white_btn {
+    background: var(--colorWhite);
+    color: var(--colorBlack);
+    margin-top: 37px;
+}
 
+.wsus__company_details_hireing .white_btn i {
+    margin-left: 5px;
+}
+
+.wsus__company_details_hireing .white_btn:hover {
+    color: var(--colorWhite);
+}
+
+/*===================================
+    COMPANY DETAILS END
+===================================*/
+
+
+/*===================================
+    BLOG DETAILS START
+===================================*/
+
+.wsus__blog_details_left {
+    margin-top: 25px;
+}
+
+.wsus__blog_details_left h2 {
+    font-size: 34px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.wsus__blog_details_left .wsus__jobs_benifits {
+    align-items: center;
+    margin-top: 22px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed rgba(3, 18, 33, 0.24);
+}
+
+.wsus__blog_details_left .wsus__jobs_benifits li:first-child span {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.wsus__blog_details_social_shear {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.wsus__blog_details_social_media {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.wsus__blog_details_social_media h6 {
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-right: 6px;
+}
+
+.wsus__blog_details_social_media ul {
+    gap: 3px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wsus__blog_details_social_media ul li a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 50% !important;
+    padding: 1px;
+}
+
+.wsus__blog_details_view_shear {
+    gap: 8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wsus__blog_details_view_shear li span {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    position: relative;
+    top: -2px;
+}
+
+.wsus__blog_details_img_1 {
+    height: 470px;
+    margin-top: 40px;
+}
+
+.wsus__blog_details_left p {
+    line-height: 26px;
+    margin-top: 23px;
+    color: rgba(3, 18, 33, 0.70);
+}
+
+.wsus_blog_details_review {
+    margin-top: 50px;
+    padding: 30px 35px 36px 35px;
+    border: 1px solid var(--BorderColor2);
+}
+
+.wsus_blog_details_review .quito {
+    display: inline-block;
+    width: 35px;
+    height: 30px;
+}
+
+.wsus_blog_details_review p {
+    margin-top: 17px;
+}
+
+.wsus_blog_details_review h6 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 20px;
+    text-transform: capitalize;
+    position: relative;
+    padding-left: 30px;
+}
+
+.wsus_blog_details_review h6::after {
+    position: absolute;
+    content: "";
+    top: 7px;
+    left: 0;
+    width: 24px;
+    height: 4px;
+    border-radius: 20px;
+    background: var(--colorSecondary);
+}
+
+.wsus_blog_details_review h6 span {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(3, 18, 33, 0.50);
+    text-transform: capitalize;
+    margin-left: 8px;
+    padding-left: 10px;
+    position: relative;
+}
+
+.wsus_blog_details_review h6 span::after {
+    position: absolute;
+    content: "";
+    top: 8px;
+    left: 0;
+    width: 4px;
+    height: 4px;
+    background: rgba(3, 18, 33, 0.62);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.wsus__blog_details_img_2 {
+    height: 220px;
+    margin-top: 45px;
+}
+
+.wsus__blog_details_img_text {
+    margin-top: 45px;
+}
+
+.wsus__blog_details_img_text li {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    position: relative;
+    padding-left: 18px;
+    color: rgba(3, 18, 33, 0.70);
+}
+
+.wsus__blog_details_img_text li::after {
+    position: absolute;
+    content: "";
+    top: 7px;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    background: var(--colorSecondary);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.wsus__blog_details_tags_shear {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.wsus__blog_details_tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wsus__blog_details_tags ul li a:hover {
+    background: var(--colorSecondary);
+    border-color: var(--colorSecondary);
+}
+
+.wsus__blog_details_tags_shear h6 {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-right: 10px;
+}
+
+.wsus_blog_details_review_two {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 14px;
+    margin-top: 60px;
+    border: 1px solid var(--BorderColor2);
+}
+
+.wsus_blog_details_review_two .img {
+    width: 240px;
+    height: 240px;
+    margin-right: 30px;
+}
+
+.wsus_blog_details_review_two .text {
+    width: 65%;
+}
+
+.wsus_blog_details_review_two .text span {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(3 18 33 / 46%);
+    text-transform: capitalize;
+}
+
+.wsus_blog_details_review_two .text p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 12px;
+    color: rgba(3, 18, 33, 0.70);
+}
+
+.wsus_blog_details_review_two .text ul {
+    gap: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 28px;
+}
+
+.wsus_blog_details_review_two .text ul li a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 50% !important;
+    padding: 1px;
+}
+
+.wsus__blog_details_left h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 75px;
+    text-transform: capitalize;
+}
+
+.wsus__blog_details_comment {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wsus__blog_details_comment .img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.wsus__blog_details_comment .text {
+    width: 90%;
+}
+
+.wsus__blog_details_comment .text .title_2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.wsus__blog_details_comment .text .date {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(3 18 33 / 46%);
+}
+
+.wsus__blog_details_comment .text p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 12px;
+    color: rgba(3, 18, 33, 0.60);
+}
+
+.wsus__blog_details_comment.comment_reply {
+    margin-left: 70px;
+}
+
+.wsus__blog_details_comment .link {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 23px;
+    color: var(--colorBlack);
+    text-transform: capitalize;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__blog_details_comment .link:hover {
+    color: var(--colorSecondary);
+}
+
+.wsus__blog_details_comment .link span {
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    width: 22px;
+    height: 22px;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    margin-left: 2px;
+    color: var(--colorBlack);
+    background: #F2F3F5;
+    border-radius: 50%;
+    margin-right: 0;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__blog_details_comment .link span i {
+    margin-left: 1px;
+}
+
+.wsus__blog_details_comment .link:hover span {
+    color: var(--colorWhite);
+    background: var(--colorSecondary);
+    margin-left: 10px;
+}
+
+.wsus__blog_details_massagebox {
+    margin-top: 75px;
+    padding: 35px 40px 50px 40px;
+    border: 1px solid var(--BorderColor2);
+}
+
+.wsus__blog_details_massagebox h4 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.wsus__blog_details_massagebox .input {
+    margin-top: 18px;
+}
+
+.wsus__blog_details_massagebox .input label {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--colorBlack);
+}
+
+.wsus__blog_details_massagebox .input input,
+.wsus__blog_details_massagebox .input textarea {
+    margin-top: 10px;
+    padding: 14px 20px;
+    border: 1px solid var(--BorderColor1);
+}
+
+.wsus__blog_details_massagebox .form-check {
+    margin-top: 13px;
+}
+
+.wsus__blog_details_massagebox .form-check-input {
+    width: 16px;
+    height: 16px;
+    margin-top: 4px;
+    padding: 0px;
+    border: 1px solid var(--BorderColor2);
+}
+
+.wsus__blog_details_massagebox .form-check-input[type=checkbox] {
+    border-radius: 0;
+}
+
+.wsus__blog_details_massagebox .form-check-input:focus {
+    border-color: var(--BorderColor2);
+    box-shadow: none;
+}
+
+.wsus__blog_details_massagebox .form-check-label {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(3, 18, 33, 0.70);
+}
+
+.wsus__blog_details_massagebox_btn {
+    margin-top: 45px;
+}
+
+.wsus__blog_details_right .wsus__sidebar_wizard {
+    padding: 30px 30px 35px 30px;
+}
+
+.wsus__blog_details_right .wsus__sidebar_wizard h4 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.wsus__sidebar_wizard.searchbox form {
+    position: relative;
+    margin-top: 20px;
+}
+
+.wsus__sidebar_wizard.searchbox form button {
+    position: absolute;
+    top: 8px;
+    right: 15px;
+    width: 17px;
+    height: 17px;
+    background: transparent;
+}
+
+.wsus__recent_blog_post {
+    margin-top: 25px;
+}
+
+.wsus__recent_blog_post li {
+    margin-top: 20px;
+}
+
+.wsus__recent_blog_post li a {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.wsus__recent_blog_post li a .img {
+    width: 90px;
+    height: 100px;
+    margin-right: 25px;
+}
+
+.wsus__recent_blog_post li a .text {
+    width: 65%;
+}
+
+.wsus__recent_blog_post li a .text p {
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: var(--colorSecondary);
+}
+
+.wsus__recent_blog_post li a .text p span {
+    font-size: 13px;
+    font-weight: 500;
+    position: relative;
+    margin-left: 4px;
+    padding-left: 10px;
+    color: rgb(3 18 33 / 46%);
+}
+
+.wsus__recent_blog_post li a .text p span::after {
+    position: absolute;
+    content: "";
+    top: 8px;
+    left: 0;
+    width: 4px;
+    height: 4px;
+    background: rgba(3, 18, 33, 0.62);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.wsus__recent_blog_post li a .text b {
+    margin-top: 8px;
+}
+
+.wsus__blog_sidebar_category {
+    margin-top: 10px;
+}
+
+.wsus__blog_sidebar_category li {
+    padding: 12px 0px 12px 0px;
+    border-bottom: 1px solid var(--BorderColor1);
+}
+
+.wsus__blog_sidebar_category li:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.wsus__blog_sidebar_category li a {
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    padding-left: 12px;
+    color: rgba(3, 18, 33, 0.50);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__blog_sidebar_category li a span {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(3, 18, 33, 0.50);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__blog_sidebar_category li a:hover {
+    color: var(--colorSecondary);
+}
+
+.wsus__blog_sidebar_category li a:hover span {
+    color: var(--colorSecondary);
+}
+
+.wsus__blog_sidebar_category li a::after {
+    position: absolute;
+    content: "";
+    top: 9px;
+    left: 0px;
+    width: 4px;
+    height: 4px;
+    background: rgb(110, 121, 132);
+    border-radius: 50%;
+}
+
+.wsus__blog_sidebar_category li a:hover::after {
+    background: var(--colorSecondary);
+}
+
+/*===================================
+    BLOG DETAILS END
+===================================*/
+
+
+/*===================================
+    FAQ'S  START
+===================================*/
+
+.wsus__faq_contant h2 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.wsus__faq_accordion {
+    margin-top: 26px;
+}
+
+.wsus__faq_accordion .accordion-item {
+    margin-top: 15px;
+    border-bottom: none;
+    background: var(--colorWhite);
+    box-shadow: 0px 6px 80px 0px rgba(3, 18, 33, 0.10);
+}
+
+.wsus__faq_accordion .accordion-button {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 11px 12px 11px 22px;
+
+}
+
+.wsus__faq_accordion .accordion-body {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(3, 18, 33, 0.7);
+    padding: 23px 25px 32px 25px;
+
+}
+
+.wsus__faq_accordion .accordion-button:not(.collapsed) {
+    color: var(--colorWhite);
+    background: var(--BlueGradient) !important;
+    box-shadow: 0px 2px 6px 0px rgba(20, 56, 181, 0.50);
+}
+
+.wsus__faq_accordion .accordion-button::after {
+    width: 32px !important;
+    height: 32px !important;
+    background-image: url(../images/acordion_angle_1.png);
+    background-size: auto;
+}
+
+.wsus__faq_accordion .accordion-button:not(.collapsed)::after {
+    background-image: url(../images/acordion_angle_2.png);
+}
+
+.wsus__faq_accordion .accordion-button:focus {
+    border-color: transparent;
+    box-shadow: none;
+}
+
+/*===================================
+    FAQ'S  END
+===================================*/
+
+
+/*===================================
+    CONTACT START
+===================================*/
+
+.wsus__contact_text h2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+.wsus__contact_text .descripton {
+    line-height: 26px;
+    margin-top: 8px;
+    color: rgba(3, 18, 33, 0.70);
+}
+
+.wsus__contact_address {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.wsus__contact_address li {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.wsus__contact_address li span {
+    display: inline-block;
+    width: 54px;
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    background: var(--BlueGradient);
+    margin-right: 15px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 6px 0px rgba(20, 56, 181, 0.50);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.wsus__contact_address li span img {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.wsus__contact_address li .text {
+    width: 73%;
+}
+
+.wsus__contact_address li .text p {
+    color: #4F5A64;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.wsus__contact_address li .text a,
+.wsus__contact_address li .text b {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: var(--colorBlack);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__contact_address li .text a:hover {
+    color: var(--colorSecondary);
+}
+
+.wsus__contact_social_media {
+    margin-top: 48px;
+}
+
+.wsus__contact_social_media h6 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.wsus__contact_social_media ul {
+    gap: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.wsus__contact_social_media ul li a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 50% !important;
+    padding: 1px;
+}
+
+.wsus__contact_form .input {
+    margin-bottom: 15px;
+}
+
+.wsus__contact_form .input input,
+.wsus__contact_form .input textarea {
+    padding: 13px 20px;
+}
+
+.wsus__contact_form_btn .common_btn {
+    width: 100%;
+    padding: 12px 30px 14px 30px;
+}
+
+.wsus__contact_page_map {
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.wsus__contact_google_map iframe {
+    width: 100%;
+    height: 570px;
+}
+
+/*===================================
+    CONTACT END
+===================================*/
+
+
+
+
+
+
+/*===================================
+    LOGIN & REGISTRATION START
+===================================*/
+
+.wsus__login_page {}
+
+
+.wsus__login_area {
+    border: 1px solid var(--BorderColor1);
+}
+
+
+.wsus__login_img {
+    height: 100%;
+}
+
+
+.wsus__login_contant {
+    padding: 40px 68px 40px 45px;
+}
+
+.wsus__login_contant .logo {
+    width: 135px;
+    height: 40px;
+    display: block;
+}
+
+.wsus__login_contant h2 {
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 40px;
+}
+
+.wsus__login_contant .log_link {
+    font-size: 16px;
+    font-weight: 500;
+    color: #68737D;
+    margin-top: 10px;
+}
+
+.wsus__login_contant .log_link a {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--colorSecondary);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+
+.wsus__login_contant .log_link a:hover {
+    color: var(--colorBlack);
+}
+
+
+.wsus__login_form {
+    margin-top: 30px;
+}
+
+.wsus__login_input {
+    margin-top: 18px;
+}
+
+.wsus__login_input label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #4F5A64;
+    text-transform: capitalize;
+}
+
+.wsus__login_input input {
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.wsus__contact_checkbox .form-check {
+    margin-top: 13px;
+}
+
+.wsus__contact_checkbox .form-check-input {
+    width: 14px;
+    height: 14px;
+    margin-top: 4px;
+    padding: 0px;
+    border: 1px solid var(--BorderColor2);
+}
+
+.wsus__contact_checkbox .form-check-input[type=checkbox] {
+    border-radius: 0;
+}
+
+.wsus__contact_checkbox .form-check-input:focus {
+    border-color: var(--BorderColor2);
+    box-shadow: none;
+}
+
+.wsus__contact_checkbox .form-check-label {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(3, 18, 33, 0.70);
+}
+
+
+
+
+
+
+.wsus__login_btn {
+    margin-top: 23px;
+}
+
+.wsus__login_btn .common_btn {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+.wsus__login_contant .or_shape {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.wsus__login_contant .or_shape b {
+    font-size: 15px;
+    font-weight: 500;
+    color: #4F5A64;
+    position: relative;
+    text-transform: capitalize;
+}
+
+.wsus__login_contant .or_shape b::after {
+    position: absolute;
+    content: "";
+    top: 10px;
+    right: 30px;
+    width: 242px;
+    height: 1px;
+    background: var(--BorderColor1);
+}
+
+.wsus__login_contant .or_shape b::before {
+    position: absolute;
+    content: "";
+    top: 10px;
+    left: 30px;
+    width: 242px;
+    height: 1px;
+    background: var(--BorderColor1);
+}
 
 
 
@@ -5807,20 +6728,8 @@ header .wsus__header_right li .nice-select .list {
 
 
 /*===================================
-    COMPANY DETAILS END
+    LOGIN & REGISTRATION END
 ===================================*/
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
