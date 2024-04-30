@@ -292,8 +292,68 @@ $(function () {
 
 
 
+    //=======EVENTS ONE SLIDER======
+    $('.event_one_slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2500,
+        dots: true,
+        arrows: false,
+    });
 
 
+    //=======EVENTS_MAN SLIDER======
+    $('.event_man_slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2500,
+        dots: false,
+        arrows: true,
+        nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
+        prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //=====LOGIN PASSWORD========
+    $(".show_password").on("click", function () {
+        $(".show_password").toggleClass("show");
+    });
+
+    $(".show_confirm_password").on("click", function () {
+        $(".show_confirm_password").toggleClass("show");
+    });
 
 
     //=======RANGER SLIDER======
