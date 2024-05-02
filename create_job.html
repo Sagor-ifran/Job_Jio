@@ -13,8 +13,10 @@
     <link rel="stylesheet" href="css/select2.min.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/scroll_button.css">
+    <link rel="stylesheet" href="css/range_slider.css">
+    <link rel="stylesheet" href="css/animated_barfiller.css">
+    <link rel="stylesheet" href="css/jquery.simple-bar-graph.min.css">
     <link rel="stylesheet" href="css/animate.css">
-
     <link rel="stylesheet" href="css/spacing.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -185,19 +187,19 @@
                             <div class="row">
                                 <div class="col-xl-12">
                                     <div class="wsus__create_job_form_input">
-                                        <label for="#">Job Title</label>
+                                        <label>Job Title</label>
                                         <input type="text" placeholder="Title">
                                     </div>
                                 </div>
                                 <div class="col-xl-12">
                                     <div class="wsus__create_job_form_input">
-                                        <label for="#">Description</label>
+                                        <label>Description</label>
                                         <textarea rows="9" placeholder="Description the job"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-xl-6">
                                     <div class="wsus__create_job_form_input">
-                                        <label for="#">Job Type</label>
+                                        <label>Job Type</label>
                                         <select class="select_2" name="state">
                                             <option value="">Web Designer</option>
                                             <option value="">Web Devloper</option>
@@ -207,7 +209,7 @@
                                 </div>
                                 <div class="col-xl-6">
                                     <div class="wsus__create_job_form_input">
-                                        <label for="#">Job Categories:</label>
+                                        <label>Job Categories:</label>
                                         <select class="select_2" name="state">
                                             <option value="">Job Categories</option>
                                             <option value="">Job Categories 2</option>
@@ -217,44 +219,11 @@
                                 </div>
                                 <div class="col-xl-6">
                                     <div class="wsus__create_job_form_input">
-                                        <label for="#">Salary:</label>
+                                        <label>Salary:</label>
                                         <select class="select_2" name="state">
                                             <option value="">Monthly</option>
                                             <option value="">Yearly</option>
                                             <option value="">weekly</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                        <form action="#" class="wsus__create_job_form mt_45">
-                            <h4>Skill & Experience :</h4>
-                            <div class="row">
-                                <div class="col-xl-12">
-                                    <div class="wsus__create_job_form_input">
-                                        <label for="#">Skills</label>
-                                        <input type="text" placeholder="Web Developer">
-                                    </div>
-                                </div>
-                                <div class="col-xl-6">
-                                    <div class="wsus__create_job_form_input">
-                                        <label for="#">Qualifications:</label>
-                                        <input type="text" placeholder="Qualifications:">
-                                    </div>
-                                </div>
-                                <div class="col-xl-6">
-                                    <div class="wsus__create_job_form_input">
-                                        <label for="#">Experience</label>
-                                        <input type="text" placeholder="Experience">
-                                    </div>
-                                </div>
-                                <div class="col-xl-6">
-                                    <div class="wsus__create_job_form_input">
-                                        <label for="#">Industry:</label>
-                                        <select class="select_2" name="state">
-                                            <option value="">Banking</option>
-                                            <option value="">Software</option>
-                                            <option value="">Retail</option>
                                         </select>
                                     </div>
                                 </div>
@@ -273,17 +242,50 @@
                             </div>
                         </form>
                         <form action="#" class="wsus__create_job_form mt_45">
+                            <h4>Skill & Experience :</h4>
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <div class="wsus__create_job_form_input">
+                                        <label>Skills</label>
+                                        <input type="text" placeholder="Web Developer">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="wsus__create_job_form_input">
+                                        <label>Qualifications:</label>
+                                        <input type="text" placeholder="Qualifications:">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="wsus__create_job_form_input">
+                                        <label>Experience</label>
+                                        <input type="text" placeholder="Experience">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="wsus__create_job_form_input">
+                                        <label>Industry:</label>
+                                        <select class="select_2" name="state">
+                                            <option value="">Banking</option>
+                                            <option value="">Software</option>
+                                            <option value="">Retail</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <form action="#" class="wsus__create_job_form mt_45">
                             <h4>Location & Address :</h4>
                             <div class="row">
                                 <div class="col-xl-12">
                                     <div class="wsus__create_job_form_input">
-                                        <label for="#">Address</label>
+                                        <label>Address</label>
                                         <input type="text" placeholder="Address">
                                     </div>
                                 </div>
                                 <div class="col-xl-6">
                                     <div class="wsus__create_job_form_input">
-                                        <label for="#">Country</label>
+                                        <label>Country</label>
                                         <select class="select_2" name="state">
                                             <option value="">United States</option>
                                             <option value="">Canada</option>
@@ -293,7 +295,7 @@
                                 </div>
                                 <div class="col-xl-6">
                                     <div class="wsus__create_job_form_input">
-                                        <label for="#">State</label>
+                                        <label>State</label>
                                         <select class="select_2" name="state">
                                             <option value="">Florida</option>
                                             <option value="">new york</option>
@@ -407,7 +409,7 @@
                                 </div>
                                 <div class="text">
                                     <span>Hotline</span>
-                                    <a href="callto:+(446) 345 387 87">+(446) 345 387 87</a>
+                                    <a href="callto:+44634538787">+(446) 345 387 87</a>
                                 </div>
                             </li>
                             <li>
@@ -476,9 +478,11 @@
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.countup.min.js"></script>
     <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.simple-bar-graph.min.js"></script>
+    <script src="js/animated_barfiller.js"></script>
     <script src="js/scroll_button.js"></script>
+    <script src="js/range_slider.js"></script>
     <script src="js/wow.min.js"></script>
-
     <!--main/custom js-->
     <script src="js/main.js"></script>
 

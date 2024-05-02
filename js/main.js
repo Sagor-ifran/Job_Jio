@@ -50,15 +50,6 @@ $(function () {
     // init_pointer({});
 
 
-
-
-
-
-
-
-
-
-
     //=======RECRUITER======
     $('.recruiter_slider').slick({
         slidesToShow: 3,
@@ -291,6 +282,43 @@ $(function () {
     });
 
 
+    //=======BRANDING 2 SLIDER======
+    $('.branding_2_slider').slick({
+        slidesToShow: 7,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2500,
+        dots: false,
+        arrows: false,
+
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    });
+
 
     //=======EVENTS ONE SLIDER======
     $('.event_one_slider').slick({
@@ -314,36 +342,6 @@ $(function () {
         nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
         prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
     });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     //=====LOGIN PASSWORD========
@@ -372,6 +370,58 @@ $(function () {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // Pregress Bar
+    $(document).ready(function () {
+        $('#bar1').barfiller({});
+        $('#bar2').barfiller({});
+        $('#bar3').barfiller({});
+        $('#bar4').barfiller({});
+        $('#bar5').barfiller({});
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     //=======WOW JS======
     new WOW().init();
 
@@ -380,7 +430,6 @@ $(function () {
     $(".navbar-toggler").on("click", function () {
         $(".navbar-toggler").toggleClass("show");
     });
-
 
 
 });
