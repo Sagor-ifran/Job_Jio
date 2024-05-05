@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 
-<body>
+<body class="dash_bg">
 
     <!--===========================
         HEADER 3 START
@@ -126,7 +126,7 @@
                     <ul class="wsus__droap_menu">
                         <li><a href="contact.html">Contact Us</a></li>
                         <li><a href="pricing.html">Pricing Plan</a></li>
-                        <li><a href="checkout.html" class="active">Check Out</a></li>
+                        <li><a href="checkout.html">Check Out</a></li>
                         <li><a href="payment.html">payment</a></li>
                         <li><a href="top_companies.html">Companies</a></li>
                         <li><a href="testimonial.html">Testimonials</a></li>
@@ -139,7 +139,7 @@
                         <li><a href="login.html">login</a></li>
                         <li><a href="registration.html">registration</a></li>
                         <li><a href="forgot_password.html">forgot password</a></li>
-                        <li><a href="dashboard.html">Dashboard</a></li>
+                        <li><a href="dashboard.html" class="active">Dashboard</a></li>
                         <li><a href="error.html">error</a></li>
                         <li><a href="privacy_policy.html">Privacy Policy</a></li>
                         <li><a href="terms_condition.html">Terms Condition</a></li>
@@ -180,7 +180,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="wsus___breadcrumb_text">
-                            <h1>checkout</h1>
+                            <h1>dashboard</h1>
                             <ul>
                                 <li>
                                     <a href="index.html">
@@ -189,7 +189,7 @@
                                         <i class="far fa-angle-right"></i>
                                     </a>
                                 </li>
-                                <li>checkout</li>
+                                <li>dashboard</li>
                             </ul>
                         </div>
                     </div>
@@ -202,147 +202,283 @@
     =============================-->
 
 
-    <!--============================
-        CHECKOUT START
-    =============================-->
-    <section class="wsus__checkout pt_120 xs_pt_100 pb_120 xs_pb_100">
+    <!--===========================
+        DASHBOARD RESUME START
+    ============================-->
+    <section class="wsus__dashboard mt_95 xs_mt_75 pb_120 xs_pb_100">
         <div class="container">
-            <div class="row justify-content-between">
-                <div class="col-xl-8">
-                    <div class="wsus__checkout_area">
-                        <h5>Drop your checkout instructions</h5>
-                        <form action="#">
+            <div class="row">
+                <div class="col-xl-3 col-md-4">
+                    <div class="wsus__dashboard_sidebar">
+                        <div class="wsus__dashboard_sidebar_top">
+                            <div class="dashboard_banner">
+                                <img src="images/single_topic_sidebar_banner.jpg" alt="img" class="img-fluid">
+                            </div>
+                            <div class="img">
+                                <img src="images/candidates_1.png" alt="profile" class="img-fluid w-100">
+                            </div>
+                            <h4>Norman Gordon</h4>
+                            <p>Instructor</p>
+                        </div>
+                        <ul class="wsus__dashboard_sidebar_menu">
+                            <li>
+                                <a href="dashboard.html">
+                                    <div class="img">
+                                        <img src="images/dash_icon_8.png" alt="icon" class="img-fluid w-100">
+                                    </div>
+                                    Dashboard
+                                </a>
+                            </li>
+                            <li>
+                                <a href="dashboard_profile.html">
+                                    <div class="img">
+                                        <img src="images/dash_icon_1.png" alt="icon" class="img-fluid w-100">
+                                    </div>
+                                    Profile
+                                </a>
+                            </li>
+                            <li>
+                                <a href="dashboard_resume.html" class="active">
+                                    <div class="img">
+                                        <img src="images/dash_icon_2.png" alt="icon" class="img-fluid w-100">
+                                    </div>
+                                    Resume
+                                </a>
+                            </li>
+                            <li>
+                                <a href="dashboard_job_alert.html">
+                                    <div class="img">
+                                        <img src="images/dash_icon_12.png" alt="icon" class="img-fluid w-100">
+                                    </div>
+                                    job Alert
+                                </a>
+                            </li>
+                            <li>
+                                <a href="dashboard_save_job.html">
+                                    <div class="img">
+                                        <img src="images/dash_icon_8.png" alt="icon" class="img-fluid w-100">
+                                    </div>
+                                    save job
+                                </a>
+                            </li>
+                            <li>
+                                <a href="dashboard_security.html">
+                                    <div class="img">
+                                        <img src="images/dash_icon_10.png" alt="icon" class="img-fluid w-100">
+                                    </div>
+                                    Security
+                                </a>
+                            </li>
+                            <li>
+                                <a href="dashboard_social_account.html">
+                                    <div class="img">
+                                        <img src="images/dash_icon_11.png" alt="icon" class="img-fluid w-100">
+                                    </div>
+                                    Social Profile
+                                </a>
+                            </li>
+                            <li>
+                                <a href="dashboard_notification.html">
+                                    <div class="img">
+                                        <img src="images/dash_icon_12.png" alt="icon" class="img-fluid w-100">
+                                    </div>
+                                    Notifications
+                                </a>
+                            </li>
+                            <li>
+                                <a href="dashboard_privacy.html">
+                                    <div class="img">
+                                        <img src="images/dash_icon_13.png" alt="icon" class="img-fluid w-100">
+                                    </div>
+                                    Profile Privacy
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="img">
+                                        <img src="images/dash_icon_16.png" alt="icon" class="img-fluid w-100">
+                                    </div>
+                                    Sign Out
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-9 col-md-8">
+                    <div class="wsus__dashboard_contant">
+                        <div class="wsus__dashboard_contant_top d-flex flex-wrap justify-content-between">
+                            <div class="wsus__dashboard_heading">
+                                <h5>resume update</h5>
+                                <p>Manage your jobs and its update like live, draft and insight.</p>
+                            </div>
+                        </div>
+                        <form action="#" class="dash_cv_upload">
+                            <h5>Update your CV</h5>
                             <div class="row">
                                 <div class="col-xl-6">
-                                    <div class="wsus__checkout_form_input">
-                                        <label>First Name*</label>
-                                        <input type="text" placeholder="First Name">
+                                    <div class="dash_cv_upload_file">
+                                        <input type="file">
                                     </div>
                                 </div>
                                 <div class="col-xl-6">
-                                    <div class="wsus__checkout_form_input">
-                                        <label>Last Name</label>
-                                        <input type="text" placeholder="Last Name">
-                                    </div>
-                                </div>
-                                <div class="col-xl-6">
-                                    <div class="wsus__checkout_form_input">
-                                        <label>Email Address*</label>
-                                        <input type="email" placeholder="Email">
-                                    </div>
-                                </div>
-                                <div class="col-xl-6">
-                                    <div class="wsus__checkout_form_input">
-                                        <label>Phone*</label>
-                                        <input type="text" placeholder="Phone">
-                                    </div>
-                                </div>
-                                <div class="col-xl-6">
-                                    <div class="wsus__checkout_form_input">
-                                        <label>Country Name</label>
-                                        <select class="select_2" name="state">
-                                            <option value="">select Country</option>
-                                            <option value="">Australian</option>
-                                            <option value="">bangladesh</option>
-                                            <option value="">canada</option>
-                                            <option value="">denmark</option>
-                                            <option value="">egypt</option>
-                                            <option value="">bangladesh</option>
-                                            <option value="">gabon</option>
-                                            <option value="">china</option>
-                                            <option value="">south korea</option>
-                                            <option value="">india</option>
-                                            <option value="">saudi arabia</option>
-                                            <option value="">jordan</option>
-                                            <option value="">iran</option>
-                                            <option value="">qutar</option>
-                                            <option value="">turky</option>
-                                            <option value="">UAE</option>
-                                            <option value="">USA</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-xl-6">
-                                    <div class="wsus__checkout_form_input">
-                                        <label>City</label>
-                                        <select class="select_2" name="state">
-                                            <option value="">select city</option>
-                                            <option value="">melborn</option>
-                                            <option value="">dhaka</option>
-                                            <option value="">torento</option>
-                                            <option value="">yeal</option>
-                                            <option value="">kayro</option>
-                                            <option value="">sylet</option>
-                                            <option value="">antorio</option>
-                                            <option value="">beyjing</option>
-                                            <option value="">seoal</option>
-                                            <option value="">mumbai</option>
-                                            <option value="">jedda</option>
-                                            <option value="">istanbul</option>
-                                            <option value="">tehran</option>
-                                            <option value="">doha</option>
-                                            <option value="">ankara</option>
-                                            <option value="">dubai</option>
-                                            <option value="">new york</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-xl-6">
-                                    <div class="wsus__checkout_form_input">
-                                        <label>State / Province</label>
-                                        <input type="text" placeholder="State / Province">
-                                    </div>
-                                </div>
-                                <div class="col-xl-6">
-                                    <div class="wsus__checkout_form_input">
-                                        <label>Zip / Postal Code</label>
-                                        <input type="text" placeholder="Zip Code">
-                                    </div>
-                                </div>
-                                <div class="col-xl-12">
-                                    <div class="wsus__checkout_form_input">
-                                        <label>Street address</label>
-                                        <input type="text" placeholder="House number and street name">
-                                    </div>
-                                </div>
-                                <div class="col-xl-12">
-                                    <div class="wsus__checkout_form_input">
-                                        <label>Note</label>
-                                        <textarea rows="6" placeholder="Write Something"></textarea>
-                                    </div>
-                                </div>
-                                <div class="col-xl-12">
-                                    <div class="wsus__checkout_payment_btn">
-                                        <a href="pricing.html" class="common_btn btn_light">Choose another Plan</a>
-                                        <a href="payment.html" class="common_btn common_btn_2">now payment</a>
+                                    <div class="dash_cv_upload_btn">
+                                        <button type="submit" class="common_btn">upload file</button>
+                                        <button type="submit" class="common_btn cancel_btn">cancel</button>
                                     </div>
                                 </div>
                             </div>
                         </form>
-                    </div>
-                </div>
-                <div class="col-xl-4">
-                    <div class="wsus__pricing_item">
-                        <h6>Standard</h6>
-                        <h2>$169 <span>/Month</span></h2>
-                        <ul>
-                            <li>Free Jobs Posting</li>
-                            <li>Free Jobs Marketing</li>
-                            <li>Free 5 host & domain</li>
-                            <li>10 Featured Job</li>
-                            <li class="disable">Unlimited Updates</li>
-                            <li class="disable">Job displayed for 15 days</li>
-                            <li class="disable">24/7 dedicated Support</li>
-                        </ul>
-                        <h5>selected plan</h5>
+                        <div class="dash_skill_exp_education">
+                            <h5>update your skill , Experience and education</h5>
+
+                            <ul class="nav nav-pills dash_skill_exp_education_nav" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link common_btn btn_light active" id="pills-home-tab"
+                                        data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab"
+                                        aria-controls="pills-home" aria-selected="true">skill update</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link common_btn btn_light" id="pills-profile-tab"
+                                        data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab"
+                                        aria-controls="pills-profile" aria-selected="false">Experience
+                                        update</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link common_btn btn_light" id="pills-contact-tab"
+                                        data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab"
+                                        aria-controls="pills-contact" aria-selected="false">education
+                                        update</button>
+                                </li>
+                            </ul>
+                            <div class="tab-content dash_skill_exp_education_tab" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                                    aria-labelledby="pills-home-tab" tabindex="0">
+                                    <div class="dash_add_skill">
+                                        <ul>
+                                            <li><a href="#">HTML<i class="fal fa-times"></i></a></li>
+                                            <li><a href="#">Figma<i class="fal fa-times"></i></a></li>
+                                            <li><a href="#">CSS<i class="fal fa-times"></i></a></li>
+                                            <li><a href="#">jequry<i class="fal fa-times"></i></a></li>
+                                            <li><a href="#">react js<i class="fal fa-times"></i></a></li>
+                                            <li><a href="#">node js<i class="fal fa-times"></i></a></li>
+                                            <li><a href="#">Illustrator<i class="fal fa-times"></i></a></li>
+                                            <li><a href="#">bootstrap<i class="fal fa-times"></i></a></li>
+                                            <li><a href="#">Adobe Photoshop<i class="fal fa-times"></i></a></li>
+                                            <li><a href="#">WordPress<i class="fal fa-times"></i></a></li>
+                                            <li><a href="#">Adobe XD<i class="fal fa-times"></i></a></li>
+                                        </ul>
+                                        <form action="#" class="dash_add_skill_input">
+                                            <div class="row">
+                                                <div class="col-xl-6">
+                                                    <div>
+                                                        <input type="text" placeholder="Add New Skill">
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-6">
+                                                    <div class="dash_add_skill_input_btn">
+                                                        <button class="common_btn">update</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                                    aria-labelledby="pills-profile-tab" tabindex="0">
+                                    <form action="#" class="dash_add_education">
+                                        <div class="row">
+                                            <div class="col-xl-6">
+                                                <div class="dash_add_education_input">
+                                                    <label>title</label>
+                                                    <input type="text" placeholder="Job Name">
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6">
+                                                <div class="dash_add_education_input">
+                                                    <label>company</label>
+                                                    <input type="text" placeholder="Company Name">
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6">
+                                                <div class="dash_add_education_input">
+                                                    <label>form</label>
+                                                    <input type="date" placeholder="20 may 2003">
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6">
+                                                <div class="dash_add_education_input">
+                                                    <label>to</label>
+                                                    <input type="date" placeholder="20 may 2003">
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-12">
+                                                <div class="dash_add_education_input">
+                                                    <label>Description</label>
+                                                    <textarea rows="5" placeholder="Description"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-12">
+                                                <div class="dash_add_education_input_btn">
+                                                    <button class="common_btn">add more<i
+                                                            class="far fa-plus"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                                    aria-labelledby="pills-contact-tab" tabindex="0">
+                                    <form action="#" class="dash_add_education">
+                                        <div class="row">
+                                            <div class="col-xl-6">
+                                                <div class="dash_add_education_input">
+                                                    <label>title</label>
+                                                    <input type="text" placeholder="Degree Name">
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6">
+                                                <div class="dash_add_education_input">
+                                                    <label>Academy</label>
+                                                    <input type="text" placeholder="Academy Name">
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6">
+                                                <div class="dash_add_education_input">
+                                                    <label>form</label>
+                                                    <input type="date" placeholder="20 may 2003">
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6">
+                                                <div class="dash_add_education_input">
+                                                    <label>to</label>
+                                                    <input type="date" placeholder="20 may 2003">
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-12">
+                                                <div class="dash_add_education_input">
+                                                    <label>Description</label>
+                                                    <textarea rows="5" placeholder="Description"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-12">
+                                                <div class="dash_add_education_input_btn">
+                                                    <button class="common_btn">add more<i
+                                                            class="far fa-plus"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!--============================
-        CHECKOUT END
-    =============================-->
+    <!--===========================
+        DASHBOARD RESUME END
+    ============================-->
 
 
     <!--============================
