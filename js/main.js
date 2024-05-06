@@ -354,6 +354,16 @@ $(function () {
     });
 
 
+    //=====LOGIN 2 PASSWORD========
+    $(".show_password_2").on("click", function () {
+        $(".show_password_2").toggleClass("show");
+    });
+
+    $(".show_confirm_password_2").on("click", function () {
+        $(".show_confirm_password_2").toggleClass("show");
+    });
+
+
     //=======RANGER SLIDER======
     $('.basic').alRangeSlider();
     const options = {
@@ -369,21 +379,7 @@ $(function () {
     };
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    // Pregress Bar
+    //=======PROGRESS BAR======
     $(document).ready(function () {
         $('#bar1').barfiller({});
         $('#bar2').barfiller({});
@@ -391,35 +387,6 @@ $(function () {
         $('#bar4').barfiller({});
         $('#bar5').barfiller({});
     });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     //=======WOW JS======

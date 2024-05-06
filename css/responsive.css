@@ -1,26 +1,498 @@
+@media (min-width: 1400px) and (max-width: 1600px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*===================================
+        COMMON START
+    ===================================*/
+
+
+    /* common start */
+    /* common end */
+
+    /*===================================
+        COMMON END
+    ===================================*/
+
+}
+
+
+
+
 @media (min-width: 1200px) and (max-width: 1399.99px) {
-    
-      
- 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*===================================
+        COMMON START
+    ===================================*/
+
+
+    /* common start */
+    /* common end */
+
+    /*===================================
+        COMMON END
+    ===================================*/
+
+
 }
 
 
 
 @media (min-width: 992px) and (max-width: 1199.99px) {
-    
-      
- 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*===================================
+        COMMON START
+    ===================================*/
+
+
+    /* common start */
+    /* common end */
+
+    /*===================================
+        COMMON END
+    ===================================*/
+
 }
 
 
 
 @media (min-width: 768px) and (max-width: 991.99px) {
-    
-      
- 
-  
+
+    /*===================================
+        HOME PAGE 1 START
+    ===================================*/
+
+    /* header start */
+
+    header {
+        padding: 0px 0px;
+    }
+
+
+    /* header end */
+
+
+    /* main menu start */
+
+    .main_menu {
+        padding: 17px 0px;
+    }
+
+    .main_menu .navbar-brand {
+        margin-left: 15px;
+    }
+
+    .navbar-toggler {
+        margin-right: 15px;
+    }
+
+    .navbar-collapse {
+        margin-top: 16px;
+        border-top: 1px solid var(--BorderColor1);
+    }
+
+    .main_menu .navbar-nav {
+        gap: 0px;
+        line-height: 65px;
+        background: var(--colorWhite);
+        padding-left: 20px;
+    }
+
+    .main_menu .wsus__droap_menu {
+        z-index: 9;
+        max-height: 250px;
+    }
+
+    .right_menu {
+        background: var(--colorWhite);
+        padding: 20px 0px 22px 20px;
+    }
+
+    /* main menu end */
+
+
+    /* banner start */
+
+    .wsus__banner {
+        height: auto;
+    }
+
+    .wsus__banner div {
+        height: auto;
+    }
+
+    .container_extra {
+        padding: 0px 15px;
+    }
+
+    .wsus__banner_overly {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .wsus__banner_contant {
+        margin-top: 240px;
+    }
+
+    .wsus__banner_contant h1 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .wsus__banner_searchbox {
+        background: transparent;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .wsus__banner_searchbox li {
+        width: 50% !important;
+        margin-top: 10px;
+    }
+
+    .wsus__banner_searchbox .select2-container .select2-selection--single {
+        height: 59px;
+    }
+
+    .wsus__banner_contant form {
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+
+    .wsus__banner_searchbox li::after {
+        display: none;
+    }
+
+    .wsus__banner_searchbox .searchbox_1 input {
+        padding: 19px 20px 19px 45px;
+    }
+
+    .wsus__banner_searchbox .searchbox_1 span {
+        left: 20px;
+    }
+
+    .wsus__banner_searchbox .searchbox_4 button {
+        padding: 17px 25px 19px 25px;
+    }
+
+    .wsus__banner_img {
+        margin-bottom: 120px;
+    }
+
+
+    .wsus__banner_img .img_1 {
+        margin: auto;
+    }
+
+    .wsus__banner_img::after {
+        display: none;
+    }
+
+    .wsus__banner::after {
+        right: 60px;
+        width: 72px;
+        height: 85px;
+    }
+
+    /* banner end */
+
+
+    /* category start */
+
+    .wsus__explorer_bg {
+        margin-left: 0px;
+        margin-right: 0;
+        padding: 30px 30px;
+    }
+
+    /* category end */
+
+
+    /* company start */
+
+    .wsus__Recruiter_item_icon li a {
+        width: 48px;
+        height: 48px;
+        line-height: 48px !important;
+    }
+
+    .wsus__all_company_btn a {
+        top: -5px;
+        left: -498px;
+    }
+
+    .wsus__top_company_nav {
+        margin-top: 45px;
+    }
+
+    /* company end */
+
+
+    /* team  start */
+
+    .wsus__all_team_btn {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .wsus__team_img {
+        height: 280px;
+    }
+
+    /* team  end */
+
+
+    /* about us start */
+
+    .wsus__about_us_img_1 {
+        height: 370px;
+    }
+
+
+    .wsus__about_us_img_2 {
+        height: 500px;
+        margin-top: 100px;
+    }
+
+    .wsus__about_img_shape {
+        bottom: 90px;
+        right: 62px;
+    }
+
+    .wsus__about_us_text {
+        margin-top: 50px;
+    }
+
+    /* about us end */
+
+
+    /* pricing start */
+
+
+    .wsus__browsejob_bg {
+        padding: 20px;
+    }
+
+    .wsus__browsejob_btn {
+        justify-content: start;
+        margin-top: 30px;
+    }
+
+    .wsus__process_img {
+        height: 900px;
+        margin-bottom: 40px;
+    }
+
+    .wsus__process_shape {
+        display: none;
+    }
+
+    .wsus__process_text.process_text_2 {
+        margin-top: 30px;
+    }
+
+    .wsus__process_text.process_text_3 {
+        margin-top: 30px;
+    }
+
+    .wsus__browsejob_bg::after {
+        display: none;
+    }
+
+    /* pricing end */
+
+
+    /* blog start */
+
+    .wsus__blog_item .img {
+        height: 200px;
+    }
+
+    /* blog end */
+
+
+    /* footer start */
+
+    .wsus__newsletter_bg {
+        padding: 20px 20px;
+    }
+
+    .wsus__newsletter_left .img {
+        display: none;
+    }
+
+    .wsus__newsletter_left .wsus__section_heading {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .wsus__newsletter_left .wsus__section_heading h2 {
+        font-size: 26px;
+    }
+
+    .wsus__newsletter_form input {
+        padding: 14px 20px 14px 20px;
+    }
+
+    .wsus__newsletter_form button {
+        width: 100%;
+        position: initial;
+        margin-top: 10px;
+    }
+
+    .wsus__newsletter_form {
+        margin-top: 20px;
+    }
+
+    .wsus__footer::before {
+        display: none;
+    }
+
+    .wsus__footer::after {
+        display: none;
+    }
+
+    .wsus__footer_area {
+        position: relative;
+        top: -20px;
+    }
+
+    .wsus__footer_left {
+        margin-bottom: 57px;
+    }
+
+    .wsus__footer_right {
+        margin-left: 0;
+    }
+
+    .wsus__copy_right {
+        margin-top: 75px;
+    }
+
+    .wsus__copy_right_text {
+        justify-content: center;
+    }
+
+    .wsus__copy_right_text p {
+        margin-bottom: 10px;
+    }
+
+    /* footer end */
+
+    /*===================================
+        HOME PAGE 1 END
+    ===================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*===================================
+        COMMON START
+    ===================================*/
+
+
+    /* common start */
+    /* common end */
+
+    /*===================================
+        COMMON END
+    ===================================*/
+
 }
 
 
@@ -28,10 +500,435 @@
 
 
 @media (min-width: 576px) and (max-width: 767.99px) {
-    
-      
- 
-  
+
+    /*===================================
+        HOME PAGE 1 START
+    ===================================*/
+
+    /* header start */
+
+    header {
+        padding: 0px 0px;
+    }
+
+    header .wsus__header_left {
+        display: none !important;
+    }
+
+    header .wsus__header_center {
+        display: none !important;
+    }
+
+    header .wsus__header_right {
+        justify-content: start;
+        padding: 0px 174px;
+    }
+
+    /* header end */
+
+
+    /* main menu start */
+
+    .main_menu {
+        padding: 17px 0px;
+    }
+
+    .main_menu .navbar-brand {
+        margin-left: 15px;
+    }
+
+    .navbar-toggler {
+        margin-right: 15px;
+    }
+
+    .navbar-collapse {
+        margin-top: 16px;
+        border-top: 1px solid var(--BorderColor1);
+    }
+
+    .main_menu .navbar-nav {
+        gap: 0px;
+        line-height: 65px;
+        background: var(--colorWhite);
+        padding-left: 20px;
+    }
+
+    .main_menu .wsus__droap_menu {
+        z-index: 9;
+        max-height: 250px;
+    }
+
+    .right_menu {
+        background: var(--colorWhite);
+        padding: 20px 0px 22px 20px;
+    }
+
+    /* main menu end */
+
+
+    /* banner start */
+
+    .wsus__banner {
+        height: auto;
+    }
+
+    .wsus__banner div {
+        height: auto;
+    }
+
+    .container_extra {
+        padding: 0px 15px;
+    }
+
+    .wsus__banner_overly {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .wsus__banner_contant {
+        margin-top: 215px;
+    }
+
+    .wsus__banner_contant h1 {
+        font-size: 44px;
+        line-height: 50px;
+    }
+
+    .wsus__banner_searchbox {
+        background: transparent;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .wsus__banner_searchbox li {
+        width: 100% !important;
+        margin-top: 10px;
+    }
+
+    .wsus__banner_contant form {
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+
+    .wsus__banner_searchbox li::after {
+        display: none;
+    }
+
+    .wsus__banner_searchbox .searchbox_1 input {
+        padding: 19px 20px 19px 45px;
+    }
+
+    .wsus__banner_searchbox .searchbox_1 span {
+        left: 20px;
+    }
+
+    .wsus__banner_searchbox .searchbox_4 button {
+        padding: 17px 25px 19px 25px;
+    }
+
+    .wsus__banner_img {
+        margin-bottom: 100px;
+    }
+
+
+    .wsus__banner_img .img_1 {
+        margin: auto;
+    }
+
+    .wsus__banner_img::after {
+        display: none;
+    }
+
+    .wsus__banner::after {
+        right: 60px;
+        width: 72px;
+        height: 85px;
+    }
+
+    /* banner end */
+
+
+    /* category start */
+
+    .wsus__explorer_bg {
+        margin-left: 0px;
+        margin-right: 0;
+    }
+
+    .wsus__explorer_contant {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .wsus__explorer_contant .text h2 {
+        font-size: 28px;
+    }
+
+    .wsus__explorer_contant .text p {
+        font-size: 16px;
+    }
+
+    .wsus__explorer_btn {
+        margin-top: 20px;
+    }
+
+    /* category end */
+
+
+    /* company start */
+
+    .wsus__all_company_btn a {
+        top: -5px;
+        left: -319px;
+    }
+
+    .wsus__top_company_nav {
+        margin-top: 45px;
+    }
+
+    /* company end */
+
+
+    /* team  start */
+
+    .wsus__all_team_btn {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .wsus__team_img {
+        height: 430px;
+    }
+
+    .wsus__counter_item .img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .wsus__counter_item .text h3,
+    .wsus__counter_item .text h3 span {
+        font-size: 30px;
+    }
+
+    .wsus__counter_item .text {
+        margin-left: 12px;
+    }
+
+    .wsus__counter_item .text p {
+        font-size: 12px;
+    }
+
+    /* team  end */
+
+
+    /* jobs start */
+
+    .wsus__jobs_item {
+        padding: 25px 25px 25px 25px;
+    }
+
+    .wsus__jobs_item .badgh {
+        right: 25px;
+    }
+
+    .wsus__jobs_item_text {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .wsus__jobs_item_bottom p {
+        margin-bottom: 20px;
+    }
+
+    /* jobs end */
+
+
+    /* about us start */
+
+    .wsus__about_us_img_1 {
+        height: 570px;
+    }
+
+    .wsus__about_us_img_2 {
+        height: 570px;
+        margin-top: 25px;
+    }
+
+    .wsus__about_img_shape {
+        right: 242px;
+        bottom: 0;
+    }
+
+    .wsus__about_us_text {
+        margin-top: 60px;
+    }
+
+    .wsus__about_us::after {
+        display: none;
+    }
+
+    /* about us end */
+
+
+    /* pricing start */
+
+    .wsus__pricing_item {
+        padding: 28px 30px 30px 30px;
+    }
+
+    .wsus__browsejob_bg {
+        padding: 20px;
+    }
+
+    .wsus__browsejob_btn {
+        justify-content: start;
+        margin-top: 30px;
+    }
+
+    .wsus__process_img {
+        height: 670px;
+        margin-bottom: 40px;
+    }
+
+    .wsus__process_shape {
+        height: 790px;
+    }
+
+    .wsus__process_text.process_text_2 {
+        margin-top: 30px;
+    }
+
+    .wsus__process_text.process_text_3 {
+        margin-top: 30px;
+    }
+
+    .wsus__browsejob_bg::after {
+        display: none;
+    }
+
+    /* pricing end */
+
+
+    /* blog start */
+
+    .wsus__blog_item .img {
+        height: 300px;
+    }
+
+    /* blog end */
+
+
+    /* footer start */
+
+    .wsus__newsletter_bg {
+        padding: 20px 20px;
+    }
+
+    .wsus__newsletter_left .img {
+        display: none;
+    }
+
+    .wsus__newsletter_left .wsus__section_heading {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .wsus__newsletter_left .wsus__section_heading h2 {
+        font-size: 26px;
+    }
+
+    .wsus__newsletter_form input {
+        padding: 14px 20px 14px 20px;
+    }
+
+    .wsus__newsletter_form button {
+        width: 100%;
+        position: initial;
+        margin-top: 10px;
+    }
+
+    .wsus__newsletter_form {
+        margin-top: 20px;
+    }
+
+    .wsus__footer::before {
+        display: none;
+    }
+
+    .wsus__footer::after {
+        display: none;
+    }
+
+    .wsus__footer_area {
+        position: relative;
+        top: -20px;
+    }
+
+    .wsus__footer_left {
+        margin-bottom: 57px;
+    }
+
+    .wsus__footer_right {
+        margin-left: 0;
+    }
+
+    .wsus__copy_right {
+        margin-top: 75px;
+    }
+
+    .wsus__copy_right_text {
+        justify-content: center;
+    }
+
+    .wsus__copy_right_text p {
+        margin-bottom: 10px;
+    }
+
+    /* footer end */
+
+    /*===================================
+        HOME PAGE 1 END
+    ===================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*===================================
+        COMMON START
+    ===================================*/
+
+
+    /* common start */
+    /* common end */
+
+    /*===================================
+        COMMON END
+    ===================================*/
+
 }
 
 
@@ -39,10 +936,428 @@
 
 
 @media (max-width: 575.99px) {
-    
-      
- 
-  
+
+
+    /*===================================
+        HOME PAGE 1 START
+    ===================================*/
+
+    /* header start */
+
+    header {
+        padding: 0px 0px;
+    }
+
+    header .wsus__header_left {
+        display: none !important;
+    }
+
+    header .wsus__header_center {
+        display: none !important;
+    }
+
+    header .wsus__header_right {
+        justify-content: start;
+        padding: 0px 44px;
+    }
+
+    /* header end */
+
+
+    /* main menu start */
+
+    .main_menu {
+        padding: 17px 0px;
+    }
+
+    .main_menu .navbar-brand {
+        margin-left: 15px;
+    }
+
+    .navbar-toggler {
+        margin-right: 15px;
+    }
+
+    .navbar-collapse {
+        margin-top: 16px;
+        border-top: 1px solid var(--BorderColor1);
+    }
+
+    .main_menu .navbar-nav {
+        gap: 0px;
+        line-height: 65px;
+        background: var(--colorWhite);
+        padding-left: 20px;
+    }
+
+    .main_menu .wsus__droap_menu {
+        z-index: 9;
+        max-height: 250px;
+    }
+
+    .right_menu {
+        background: var(--colorWhite);
+        padding: 20px 0px 22px 20px;
+    }
+
+    /* main menu end */
+
+
+    /* banner start */
+
+    .wsus__banner {
+        height: auto;
+    }
+
+    .wsus__banner div {
+        height: auto;
+    }
+
+    .container_extra {
+        padding: 0px 15px;
+    }
+
+    .wsus__banner_overly {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .wsus__banner_contant {
+        margin-top: 215px;
+    }
+
+    .wsus__banner_contant h1 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+
+    .wsus__banner_contant h5 {
+        font-size: 14px;
+        padding: 2px 10px 3px 10px;
+    }
+
+    .wsus__banner_searchbox {
+        background: transparent;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .wsus__banner_searchbox li {
+        width: 100% !important;
+        margin-top: 10px;
+    }
+
+    .wsus__banner_contant form {
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+
+    .wsus__banner_searchbox li::after {
+        display: none;
+    }
+
+    .wsus__banner_searchbox .searchbox_1 input {
+        padding: 19px 20px 19px 45px;
+    }
+
+    .wsus__banner_searchbox .searchbox_1 span {
+        left: 20px;
+    }
+
+    .wsus__banner_searchbox .searchbox_4 button {
+        padding: 17px 25px 19px 25px;
+    }
+
+    .wsus__banner_img {
+        margin-bottom: 100px;
+    }
+
+    .wsus__banner_img .img_1 {
+        width: 290px;
+        height: 360px;
+    }
+
+    .wsus__banner_img .img_1::before {
+        display: none;
+    }
+
+    .wsus__banner_img .img_1::after {
+        left: -56px;
+        width: 377px;
+        height: 336px;
+    }
+
+    .wsus__banner_img::after {
+        display: none;
+    }
+
+    .wsus__banner::after {
+        right: 60px;
+        width: 72px;
+        height: 85px;
+    }
+
+    /* banner end */
+
+
+    /* category start */
+
+    .wsus__section_heading h2 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .wsus__category_item .text {
+        width: 65%;
+    }
+
+    .wsus__explorer_bg {
+        margin-left: 0px;
+        margin-right: 0;
+    }
+
+    .wsus__explorer_contant {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .wsus__explorer_contant .text h2 {
+        font-size: 28px;
+    }
+
+    .wsus__explorer_contant .text p {
+        font-size: 16px;
+    }
+
+    .wsus__explorer_btn {
+        margin-top: 20px;
+    }
+
+    /* category end */
+
+
+    /* company start */
+
+    .wsus__Recruiter_item_icon li a {
+        width: 40px;
+        height: 40px;
+        line-height: 40px !important;
+    }
+
+    .wsus__Recruiter_item_icon li a .img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .wsus__all_company_btn a {
+        top: -10px;
+        left: -102px;
+    }
+
+    .wsus__top_company_nav {
+        margin-top: 45px;
+    }
+
+    /* company end */
+
+
+    /* team  start */
+
+    .wsus__all_team_btn {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .wsus__team_img {
+        height: auto;
+    }
+
+    /* team  end */
+
+
+    /* jobs start */
+
+    .wsus__jobs_item {
+        padding: 25px 25px 25px 25px;
+    }
+
+    .wsus__jobs_item .badgh {
+        right: 25px;
+    }
+
+    .wsus__jobs_item_text {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .wsus__jobs_item_bottom p {
+        margin-bottom: 20px;
+    }
+
+    /* jobs end */
+
+
+    /* about us start */
+
+    .wsus__about_us_img_1 {
+        height: auto;
+    }
+
+    .wsus__about_us_img_2 {
+        height: auto;
+        margin-top: 25px;
+    }
+
+    .wsus__about_img_shape {
+        right: 21px;
+    }
+
+    .wsus__about_us_text {
+        margin-top: 60px;
+    }
+
+    .wsus__about_us::after {
+        display: none;
+    }
+
+    /* about us end */
+
+
+    /* pricing start */
+
+    .wsus__pricing_item {
+        padding: 28px 30px 30px 30px;
+    }
+
+    .wsus__browsejob_bg {
+        padding: 20px;
+    }
+
+    .wsus__browsejob_btn {
+        justify-content: start;
+        margin-top: 30px;
+    }
+
+    .wsus__process_img {
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    .wsus__process_shape {
+        height: auto;
+    }
+
+    .wsus__process_text.process_text_2 {
+        margin-top: 30px;
+    }
+
+    .wsus__process_text.process_text_3 {
+        margin-top: 30px;
+    }
+
+    /* pricing end */
+
+
+    /* blog start */
+
+    .wsus__blog_item .img {
+        height: auto;
+    }
+
+    .wsus__blog_item_text ul {
+        gap: 15px;
+    }
+
+    /* blog end */
+
+
+    /* footer start */
+
+    .wsus__newsletter_bg {
+        padding: 20px 20px;
+    }
+
+    .wsus__newsletter_left .img {
+        display: none;
+    }
+
+    .wsus__newsletter_left .wsus__section_heading {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .wsus__newsletter_left .wsus__section_heading h2 {
+        font-size: 26px;
+    }
+
+    .wsus__newsletter_form input {
+        padding: 14px 20px 14px 20px;
+    }
+
+    .wsus__newsletter_form button {
+        width: 100%;
+        position: initial;
+        margin-top: 10px;
+    }
+
+    .wsus__newsletter_form {
+        margin-top: 20px;
+    }
+
+    .wsus__footer_area {
+        position: relative;
+        top: -20px;
+    }
+
+    .wsus__footer::before {
+        display: none;
+    }
+
+    .wsus__footer::after {
+        display: none;
+    }
+
+    .wsus__footer_link {
+        margin-top: 40px;
+    }
+
+
+    .wsus__footer_right {
+        margin-left: 0;
+        margin-top: 40px;
+    }
+
+    .wsus__copy_right {
+        margin-top: 85px;
+    }
+
+    .wsus__copy_right_text {
+        justify-content: center;
+    }
+
+    .wsus__copy_right_text p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    /* footer end */
+
+    /*===================================
+        HOME PAGE 1 END
+    ===================================*/
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
@@ -58,3 +1373,37 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===================================
+    COMMON START
+===================================*/
+
+
+/* common start */
+/* common end */
+
+/*===================================
+    COMMON END
+===================================*/

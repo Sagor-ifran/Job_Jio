@@ -639,6 +639,11 @@ header .wsus__header_right li .nice-select:after {
 
 header .wsus__header_right li .nice-select .list {
     margin-top: -2px;
+    left: 20px;
+}
+
+header .wsus__header_right li .nice-select .option {
+    padding-left: 15px;
 }
 
 /* header end */
@@ -857,6 +862,39 @@ header .wsus__header_right li .nice-select .list {
     }
 }
 
+.navbar-toggler {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+    padding: 0;
+    box-shadow: none !important;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border: none;
+}
+
+.navbar-toggler.show {
+    background: red;
+    color: var(--colorWhite);
+}
+
+.navbar-toggler .close_icon_close {
+    display: none;
+}
+
+.navbar-toggler.show .close_icon_close {
+    display: inline-block;
+}
+
+.navbar-toggler.show .menu_icon_bar {
+    display: none;
+}
+
 /* main menu end */
 
 
@@ -871,6 +909,8 @@ header .wsus__header_right li .nice-select .list {
 
 .wsus__banner_overly {
     background: #03122142;
+    padding-left: 160px;
+    padding-right: 160px;
 }
 
 .wsus__banner div {
@@ -1055,11 +1095,11 @@ header .wsus__header_right li .nice-select .list {
 }
 
 .wsus__banner_searches li a:hover i {
-    transform: rotate(110deg);
-    -webkit-transform: rotate(110deg);
-    -moz-transform: rotate(110deg);
-    -ms-transform: rotate(110deg);
-    -o-transform: rotate(110deg);
+    transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
 }
 
 .wsus__banner_img {
@@ -1363,11 +1403,11 @@ header .wsus__header_right li .nice-select .list {
 }
 
 .wsus__Recruiter_item_icon li a:hover .img {
-    transform: rotate(-360deg);
-    -webkit-transform: rotate(-360deg);
-    -moz-transform: rotate(-360deg);
-    -ms-transform: rotate(-360deg);
-    -o-transform: rotate(-360deg);
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
 }
 
 .wsus__Recruiter_item_icon li a:hover {
@@ -1663,7 +1703,7 @@ header .wsus__header_right li .nice-select .list {
 }
 
 .wsus__counter_overly {
-    padding: 60px 0px;
+    padding: 30px 0px 60px;
     background: rgba(12, 35, 119, 0.86);
     backdrop-filter: blur(3px);
 }
@@ -1673,6 +1713,7 @@ header .wsus__header_right li .nice-select .list {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    margin-top: 30px;
 }
 
 .wsus__counter_item .img {
@@ -1818,11 +1859,11 @@ header .wsus__header_right li .nice-select .list {
 }
 
 .wsus__jobs_item:hover .wsus__jobs_item_bottom p i {
-    transform: rotate(120deg);
-    -webkit-transform: rotate(120deg);
-    -moz-transform: rotate(120deg);
-    -ms-transform: rotate(120deg);
-    -o-transform: rotate(120deg);
+    transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
 }
 
 .wsus__all_jobs_btn {
@@ -4821,17 +4862,6 @@ header .wsus__header_right li .nice-select .list {
     padding-bottom: 30px;
 }
 
-.wsus__ranger_text {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.wsus__ranger_text p {
-    font-size: 14px;
-    text-transform: capitalize;
-}
-
 .wsus__jobs_list .wsus__jobs_item {
     box-shadow: none;
     border: 1px solid var(--BorderColor1);
@@ -6664,6 +6694,25 @@ header .wsus__header_right li .nice-select .list {
 /* .show_confirm_password.show */
 
 
+/* .show_confirm_password_2.show */
+
+.show_confirm_password_2 .fa-eye-slash,
+.show_password_2 .fa-eye-slash {
+    display: none;
+}
+
+.show_confirm_password_2.show .fa-eye-slash,
+.show_password_2.show .fa-eye-slash {
+    display: inline-block;
+}
+
+.show_confirm_password_2.show .fa-eye,
+.show_password_2.show .fa-eye {
+    display: none;
+}
+
+/* .show_confirm_password_2.show */
+
 .wsus__contact_checkbox .form-check {
     margin-top: 13px;
 }
@@ -6765,7 +6814,7 @@ header .wsus__header_right li .nice-select .list {
     height: 20px;
     margin-right: 5px;
     position: relative;
-    top: -2px;
+    top: -1px;
 }
 
 .wsus__another_login_option li a:hover {
@@ -6802,6 +6851,26 @@ header .wsus__header_right li .nice-select .list {
     top: 34px;
     right: 0;
     padding: 9px 30px 12px 30px;
+}
+
+.wsus__back_home_btn {
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-decoration: underline;
+    color: var(--colorBlack);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__back_home_btn:hover {
+    color: var(--colorSecondary);
 }
 
 /*===================================
@@ -7495,6 +7564,10 @@ header .wsus__header_right li .nice-select .list {
     cursor: pointer;
 }
 
+.wsus__create_job_form__btn .upload_resume:hover {
+    color: var(--colorWhite);
+}
+
 /*===================================
     APPLY JOB END
 ===================================*/
@@ -7553,16 +7626,6 @@ header .wsus__header_right li .nice-select .list {
 
 .wsus__payment .wsus__pricing_item h6 {
     color: var(--colorSecondary);
-}
-
-.wsus__payment .wsus__pricing_item h5 {
-    font-size: 18px;
-    font-weight: 500;
-    text-align: center;
-    margin-top: 40px;
-    padding: 12px 30px 14px 30px;
-    background: var(--LightBg);
-    text-transform: capitalize;
 }
 
 .wsus__payment .wsus__pricing_item .common_btn::after {
@@ -7784,16 +7847,6 @@ header .wsus__header_right li .nice-select .list {
 
 .wsus__checkout .wsus__pricing_item:hover {
     margin-top: 0 !important;
-}
-
-.wsus__checkout .wsus__pricing_item h5 {
-    font-size: 18px;
-    font-weight: 500;
-    text-align: center;
-    margin-top: 40px;
-    padding: 12px 30px 14px 30px;
-    background: var(--LightBg);
-    text-transform: capitalize;
 }
 
 /*===================================
@@ -9180,6 +9233,7 @@ header .wsus__header_right li .nice-select .list {
     /*=============================
         DASHBOARD START
     =============================*/
+
     /* dasboard overview start */
     .wsus__dash_earning {
         padding: 20px;
@@ -9576,23 +9630,6 @@ header .wsus__header_right li .nice-select .list {
         margin-top: 15px;
     }
 
-    .wsus__dash_course_searchbox {
-        padding: 20px;
-    }
-
-    .wsus__dash_reviews_searchbox .selector_1 {
-        width: 100%;
-    }
-
-    .wsus__dash_reviews_searchbox .selector {
-        width: 100%;
-        margin-top: 10px;
-    }
-
-    .wsus__single_review_text {
-        max-width: 100%;
-    }
-
     .wsus__dashboard_profile_info li span {
         width: 100%;
     }
@@ -9614,92 +9651,6 @@ header .wsus__header_right li .nice-select .list {
     .wsus__dashboard_notification label {
         width: 92%;
         margin-top: 0;
-    }
-
-    .wsus__dash_payout_selector {
-        width: 100%;
-    }
-
-    .wsus__dash_payout_selector .selector {
-        width: 100%;
-        margin-right: 0;
-        margin-bottom: 10px;
-    }
-
-    /* invoice start */
-    .wsus__invoice_top {
-        padding: 20px;
-    }
-
-    .wsus__invoice_address p {
-        width: 100%;
-    }
-
-    .wsus__invoice_description {
-        padding: 12px 20px 0px 20px;
-    }
-
-    .wsus__invoice_date {
-        margin-top: 30px;
-    }
-
-    .wsus__invoice_heading {
-        text-align: left;
-    }
-
-    .wsus__invoice_heading::after {
-        display: none;
-    }
-
-    .wsus__invoice_heading h2 {
-        font-size: 32px;
-    }
-
-    .wsus__invoice_table {
-        padding: 45px 20px 0px 20px;
-    }
-
-    .wsus__invoice_final_total {
-        padding: 20px;
-    }
-
-    .wsus__invoice_final_total_right {
-        margin-top: 30px;
-    }
-
-    .wsus__invoice_final_total_right h5 {
-        margin-top: 0;
-    }
-
-    .wsus__invoice_bottom {
-        margin-top: 100px;
-        padding: 20px;
-    }
-
-    .wsus__invoice_bottom p span {
-        padding-left: 0;
-        margin-left: 0;
-        border-left: 0;
-        display: block;
-    }
-
-    /* invoice end */
-
-    .wsus__dash_course_searchbox .input input {
-        width: 100%;
-    }
-
-    .wsus__dash_course_searchbox .selector {
-        width: 100%;
-        margin-top: 10px;
-    }
-
-    .wsus__dash_course_searchbox .nice-select {
-        width: 100% !important;
-    }
-
-    .wsus__dash_course_searchbox .input {
-        width: 100%;
     }
 
     /*=============================
