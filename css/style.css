@@ -98,10 +98,10 @@ button {
     background: var(--LightBg);
 }
 
-.container_extra {
+/* .container_extra {
     width: 1580px !important;
     margin: 0 auto;
-}
+} */
 
 
 .wsus__section_heading {
@@ -518,7 +518,7 @@ header {
     width: 100%;
     height: 40px;
     line-height: 40px;
-    padding: 0px 30px;
+    padding: 0px 160px;
     z-index: 99;
     background: var(--colorBlack);
 }
@@ -640,10 +640,13 @@ header .wsus__header_right li .nice-select:after {
 header .wsus__header_right li .nice-select .list {
     margin-top: -2px;
     left: 20px;
+    width: auto;
+    padding: 10px 0px;
 }
 
 header .wsus__header_right li .nice-select .option {
-    padding-left: 15px;
+    padding-left: 20px;
+    padding-right: 30px;
 }
 
 /* header end */
@@ -652,7 +655,7 @@ header .wsus__header_right li .nice-select .option {
 /* main menu start */
 
 .main_menu {
-    height: 74px;
+    height: 75px;
     width: 100%;
     background: var(--colorWhite);
     position: fixed;
@@ -677,7 +680,7 @@ header .wsus__header_right li .nice-select .option {
 
 .main_menu .navbar-nav {
     gap: 45px;
-    line-height: 74px;
+    line-height: 75px;
 }
 
 .main_menu .navbar-nav .nav-item {
@@ -836,6 +839,11 @@ header .wsus__header_right li .nice-select .option {
 .right_menu ul li .common_btn span {
     position: relative;
     top: -1px;
+}
+
+.right_menu ul li:last-child {
+    display: flex;
+    align-items: center;
 }
 
 .main_menu.menu_fix {
@@ -5288,10 +5296,34 @@ header .wsus__header_right li .nice-select .option {
     JOB DETAILS START
 ===================================*/
 
-.wsus__job_details_top_left h2 {
-    font-size: 34px;
+.wsus__job_details_top_left h1,
+.wsus__job_details_top_left h2,
+.wsus__job_details_top_left h3,
+.wsus__job_details_top_left h4,
+.wsus__job_details_top_left h5,
+.wsus__job_details_top_left h6 {
     font-weight: 600;
     text-transform: capitalize;
+}
+
+.wsus__job_details_top_left h2 {
+    font-size: 34px;
+}
+
+.wsus__job_details_top_left h3 {
+    font-size: 30px;
+}
+
+.wsus__job_details_top_left h4 {
+    font-size: 26px;
+}
+
+.wsus__job_details_top_left h5 {
+    font-size: 22px;
+}
+
+.wsus__job_details_top_left h6 {
+    font-size: 18px;
 }
 
 .wsus__job_details_top .wsus__jobs_benifits {
@@ -5346,10 +5378,34 @@ header .wsus__header_right li .nice-select .option {
     margin-top: 55px;
 }
 
-.wsus__job_details_left h4 {
-    font-size: 26px;
+.wsus__job_details_left h1,
+.wsus__job_details_left h2,
+.wsus__job_details_left h3,
+.wsus__job_details_left h4,
+.wsus__job_details_left h5,
+.wsus__job_details_left h6 {
     font-weight: 500;
     text-transform: capitalize;
+}
+
+.wsus__job_details_left h2 {
+    font-size: 34px;
+}
+
+.wsus__job_details_left h3 {
+    font-size: 30px;
+}
+
+.wsus__job_details_left h4 {
+    font-size: 26px;
+}
+
+.wsus__job_details_left h5 {
+    font-size: 22px;
+}
+
+.wsus__job_details_left h6 {
+    font-size: 18px;
 }
 
 .wsus__job_details_left p {
@@ -5358,7 +5414,8 @@ header .wsus__header_right li .nice-select .option {
     color: rgba(3, 18, 33, 0.70);
 }
 
-.wsus__job_details_left ul li {
+.wsus__job_details_left ul li,
+.wsus__job_details_left ol li {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -5368,7 +5425,8 @@ header .wsus__header_right li .nice-select .option {
     padding-left: 15px;
 }
 
-.wsus__job_details_left ul li::after {
+.wsus__job_details_left ul li::after,
+.wsus__job_details_left ol li::after {
     position: absolute;
     content: "";
     top: 11px;
@@ -5610,10 +5668,34 @@ header .wsus__header_right li .nice-select .option {
     margin-top: 65px;
 }
 
-.wsus__company_details_left h4 {
-    font-size: 26px;
+.wsus__company_details_left h1,
+.wsus__company_details_left h2,
+.wsus__company_details_left h3,
+.wsus__company_details_left h4,
+.wsus__company_details_left h5,
+.wsus__company_details_left h6 {
     font-weight: 500;
     text-transform: capitalize;
+}
+
+.wsus__company_details_left h2 {
+    font-size: 34px;
+}
+
+.wsus__company_details_left h3 {
+    font-size: 30px;
+}
+
+.wsus__company_details_left h4 {
+    font-size: 26px;
+}
+
+.wsus__company_details_left h5 {
+    font-size: 22px;
+}
+
+.wsus__company_details_left h6 {
+    font-size: 18px;
 }
 
 .wsus__company_details_left p {
@@ -5622,7 +5704,8 @@ header .wsus__header_right li .nice-select .option {
     margin-top: 23px;
 }
 
-.wsus__company_details_left ul li {
+.wsus__company_details_left ul li,
+.wsus__company_details_left ol li {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -5632,7 +5715,8 @@ header .wsus__header_right li .nice-select .option {
     padding-left: 15px;
 }
 
-.wsus__company_details_left ul li::after {
+.wsus__company_details_left ul li::after,
+.wsus__company_details_left ol li::after {
     position: absolute;
     content: "";
     top: 11px;
@@ -5831,10 +5915,34 @@ header .wsus__header_right li .nice-select .option {
     margin-top: 25px;
 }
 
-.wsus__blog_details_left h2 {
-    font-size: 34px;
+.wsus__blog_details_left_text h1,
+.wsus__blog_details_left_text h2,
+.wsus__blog_details_left_text h3,
+.wsus__blog_details_left_text h4,
+.wsus__blog_details_left_text h5,
+.wsus__blog_details_left_text h6 {
     font-weight: 500;
     text-transform: capitalize;
+}
+
+.wsus__blog_details_left_text h2 {
+    font-size: 34px;
+}
+
+.wsus__blog_details_left_text h3 {
+    font-size: 30px;
+}
+
+.wsus__blog_details_left_text h4 {
+    font-size: 26px;
+}
+
+.wsus__blog_details_left_text h5 {
+    font-size: 22px;
+}
+
+.wsus__blog_details_left_text h6 {
+    font-size: 18px;
 }
 
 .wsus__blog_details_left .wsus__jobs_benifits {
@@ -7071,10 +7179,34 @@ header .wsus__header_right li .nice-select .option {
     EVENTS DETAILS START
 ===================================*/
 
-.wsus__events_details_left h2 {
-    font-size: 34px;
+.wsus__events_details_left h1,
+.wsus__events_details_left h2,
+.wsus__events_details_left h3,
+.wsus__events_details_left h4,
+.wsus__events_details_left h5,
+.wsus__events_details_left h6 {
     font-weight: 500;
     line-height: 46px;
+}
+
+.wsus__events_details_left h2 {
+    font-size: 34px;
+}
+
+.wsus__events_details_left h3 {
+    font-size: 30px;
+}
+
+.wsus__events_details_left h4 {
+    font-size: 26px;
+}
+
+.wsus__events_details_left h5 {
+    font-size: 22px;
+}
+
+.wsus__events_details_left h6 {
+    font-size: 18px;
 }
 
 .wsus__events_details_left .wsus__jobs_benifits {
@@ -7167,8 +7299,21 @@ header .wsus__header_right li .nice-select .option {
     margin-top: 65px;
 }
 
+.wsus__events_details_text_1 h1,
 .wsus__events_details_text_1 h2,
-.wsus__events_details_text_2 h2 {
+.wsus__events_details_text_1 h3,
+.wsus__events_details_text_1 h4,
+.wsus__events_details_text_1 h5,
+.wsus__events_details_text_1 h6 {
+    line-height: 24px;
+}
+
+.wsus__events_details_text_2 h1,
+.wsus__events_details_text_2 h2,
+.wsus__events_details_text_2 h3,
+.wsus__events_details_text_2 h4,
+.wsus__events_details_text_2 h5,
+.wsus__events_details_text_2 h6 {
     line-height: 24px;
 }
 
@@ -7180,11 +7325,13 @@ header .wsus__header_right li .nice-select .option {
     margin-top: 25px;
 }
 
-.wsus__events_details_text_1 ul {
+.wsus__events_details_text_1 ul,
+.wsus__events_details_text_1 ol {
     margin-top: 30px;
 }
 
-.wsus__events_details_text_1 ul li {
+.wsus__events_details_text_1 ul li,
+.wsus__events_details_text_1 ol li {
     font-size: 16px;
     font-weight: 400;
     margin-top: 15px;
@@ -7193,7 +7340,8 @@ header .wsus__header_right li .nice-select .option {
     padding-left: 18px;
 }
 
-.wsus__events_details_text_1 ul li:after {
+.wsus__events_details_text_1 ul li:after,
+.wsus__events_details_text_1 ol li:after {
     position: absolute;
     content: "";
     top: 8px;
@@ -7208,11 +7356,13 @@ header .wsus__header_right li .nice-select .option {
     -o-border-radius: 50%;
 }
 
-.wsus__events_details_text_2 ul {
+.wsus__events_details_text_2 ul,
+.wsus__events_details_text_2 ol {
     margin-top: 30px;
 }
 
-.wsus__events_details_text_2 ul li {
+.wsus__events_details_text_2 ul li,
+.wsus__events_details_text_2 ol li {
     font-size: 16px;
     font-weight: 400;
     margin-top: 15px;
@@ -7993,10 +8143,64 @@ header .wsus__header_right li .nice-select .option {
     margin-top: 155px;
 }
 
+.wsus__resume_left_text h1,
+.wsus__resume_left_text h2,
+.wsus__resume_left_text h3,
 .wsus__resume_left_text h4,
+.wsus__resume_left_text h5,
+.wsus__resume_left_text h6 {
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.wsus__resume_left_text h2 {
+    font-size: 32px;
+}
+
+.wsus__resume_left_text h3 {
+    font-size: 28px;
+}
+
+.wsus__resume_left_text h4 {
+    font-size: 24px;
+}
+
+.wsus__resume_left_text h5 {
+    font-size: 20px;
+}
+
+.wsus__resume_left_text h6 {
+    font-size: 18px;
+}
+
+.wsus__resume_left_text_2 h1,
+.wsus__resume_left_text_2 h2,
+.wsus__resume_left_text_2 h3,
+.wsus__resume_left_text_2 h4,
+.wsus__resume_left_text_2 h5,
+.wsus__resume_left_text_2 h6 {
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.wsus__resume_left_text_2 h2 {
+    font-size: 32px;
+}
+
+.wsus__resume_left_text_2 h3 {
+    font-size: 28px;
+}
+
 .wsus__resume_left_text_2 h4 {
     font-size: 24px;
-    font-weight: 500;
+}
+
+.wsus__resume_left_text_2 h5 {
+    font-size: 20px;
+}
+
+.wsus__resume_left_text_2 h6 {
+    font-size: 18px;
 }
 
 .wsus__resume_left_text p {
