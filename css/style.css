@@ -5218,6 +5218,10 @@ header .wsus__header_right li .nice-select .option {
     margin-right: 15px;
 }
 
+.wsus__company_page_item_top .text {
+    width: 82%;
+}
+
 .wsus__company_page_item_top .text p {
     margin-top: 4px;
 }
