@@ -34,22 +34,11 @@
     ===================================*/
 
 
-
-
-
-
 }
 
 
 
-
-
-
-
-
 @media (min-width: 1400px) and (max-width: 1600px) {
-
-
 
     /*===================================
         HOME PAGE 1 START
@@ -133,44 +122,10 @@
     ===================================*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /*===================================
-        COMMON START
-    ===================================*/
-
-
-    /* common start */
-    /* common end */
-
-    /*===================================
-        COMMON END
-    ===================================*/
-
 }
 
 
-
-
 @media (min-width: 1200px) and (max-width: 1399.99px) {
-
 
     /*===================================
         HOME PAGE 1 START
@@ -239,7 +194,6 @@
         line-height: 50px !important;
     }
 
-
     .wsus__top_company_item .title {
         font-size: 16px;
     }
@@ -297,7 +251,6 @@
         margin-left: 0;
     }
 
-
     .wsus__footer::before {
         display: none;
     }
@@ -305,8 +258,6 @@
     /*===================================
         HOME PAGE 1 END
     ===================================*/
-
-
 
 
     /*===================================
@@ -337,7 +288,6 @@
     .wsus__explorer_2_contant {
         padding: 40px 35px 40px 25px;
     }
-
 
     .wsus__job_position_img {
         height: 230px;
@@ -373,10 +323,6 @@
     ===================================*/
 
 
-
-
-
-
     /*===================================
         ABOUT US START
     ===================================*/
@@ -396,7 +342,6 @@
     /*===================================
         ABOUT US END
     ===================================*/
-
 
 
     /*===================================
@@ -451,8 +396,6 @@
     ===================================*/
 
 
-
-
     /*===================================
         CANDIDATE RESUME START
     ===================================*/
@@ -471,12 +414,9 @@
     ===================================*/
 
 
-
-
     /*===================================
         CONTACT START
     ===================================*/
-
 
     .wsus__contact_address li .text {
         width: 65%;
@@ -491,10 +431,10 @@
         height: 400px;
     }
 
-
     /*===================================
         CONTACT END
     ===================================*/
+
 
 
     /*===================================
@@ -508,6 +448,7 @@
     /*===================================
         PAYMENT END
     ===================================*/
+
 
 
     /*===================================
@@ -627,35 +568,44 @@
 
 
 
+    /*===================================
+        LOGIN $ REG $ FORGOT PASS START
+    ===================================*/
 
+    .wsus__another_login_option li a {
+        padding: 13px 18px 12px 17px;
+    }
 
+    .wsus__login_contant .or_shape b::before {
+        width: 196px;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .wsus__login_contant .or_shape b::after {
+        width: 196px;
+    }
 
     /*===================================
-        COMMON START
+        LOGIN $ REG $ FORGOT PASS END
     ===================================*/
 
 
-    /* common start */
-    /* common end */
 
     /*===================================
-        COMMON END
+        DASHBOARD START
+    ===================================*/
+
+
+    /* notification start */
+
+    .wsus__dashboard_notification label {
+        margin-top: 3px;
+    }
+
+    /* notification end */
+
+
+    /*===================================
+        DASHBOARD END
     ===================================*/
 
 
@@ -664,7 +614,6 @@
 
 
 @media (min-width: 992px) and (max-width: 1199.99px) {
-
 
 
     /*===================================
@@ -846,7 +795,6 @@
         height: 388px;
     }
 
-
     .wsus__banner_searchbox_2 .searchbox_1 {
         width: 27%;
     }
@@ -863,7 +811,6 @@
         text-align: center;
     }
 
-
     .wsus__branding_slider {
         border-left: none;
     }
@@ -871,7 +818,6 @@
     .wsus_jobs_2_item .title_2 {
         font-size: 17px;
     }
-
 
     .wsus__explorer_2_bg::after {
         display: none;
@@ -890,7 +836,6 @@
         margin-top: 30px;
         margin-bottom: 80px;
     }
-
 
     .wsus__apps_img {
         display: none;
@@ -915,8 +860,6 @@
     /*===================================
         HOME PAGE 2 END
     ===================================*/
-
-
 
 
 
@@ -950,11 +893,9 @@
         width: 46%;
     }
 
-
     .wsus__about_categories_accordion {
         margin-top: 50px;
     }
-
 
     .wsus__create_job_google_map iframe {
         height: 350px;
@@ -1018,6 +959,7 @@
     ===================================*/
 
 
+
     /*===================================
         CONTACT START
     ===================================*/
@@ -1040,6 +982,7 @@
     ===================================*/
 
 
+
     /*===================================
         PAYMENT START
     ===================================*/
@@ -1060,7 +1003,6 @@
     /*===================================
         PAYMENT END
     ===================================*/
-
 
 
 
@@ -1145,6 +1087,7 @@
     ===================================*/
 
 
+
     /*===================================
         ERROR START
     ===================================*/
@@ -1163,41 +1106,82 @@
 
 
 
+    /*===================================
+        LOGIN $ REG $ FORGOT PASS START
+    ===================================*/
 
+    .wsus__login_img {
+        display: none;
+    }
 
+    .wsus__login_contant .or_shape b::before {
+        width: 390px;
+    }
 
+    .wsus__login_contant .or_shape b::after {
+        width: 390px;
+    }
 
+    .wsus__another_login_option li {
+        width: 49%;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .wsus__login_contant {
+        padding: 40px 48px 40px 45px;
+    }
 
     /*===================================
-        COMMON START
+        LOGIN $ REG $ FORGOT PASS END
     ===================================*/
 
 
-    /* common start */
-    /* common end */
 
-    /*===================================
-        COMMON END
-    ===================================*/
+    /*=============================
+        DASHBOARD START
+    =============================*/
+
+    /* profile start */
+
+    .wsus__dashboard_profile_avatar .text {
+        width: 80%;
+    }
+
+    /* profile end */
+
+
+    /* resume start */
+
+    .dash_cv_upload_btn {
+        margin-top: 20px;
+    }
+
+    .dash_add_skill_input_btn {
+        margin-top: 20px;
+    }
+
+    /* resume end */
+
+
+    /* account link start */
+
+    .wsus__dashboard_account_remove .text {
+        width: 86%;
+    }
+
+    /* account link end */
+
+    /* notification start */
+
+
+    .wsus__dashboard_notification label {
+        margin-top: 3px;
+    }
+
+    /* notification end */
+
+    /*=============================
+        DASHBOARD END
+    =============================*/
 
 }
 
@@ -1225,7 +1209,7 @@
     /* main menu start */
 
     .main_menu {
-        padding: 17px 0px;
+        padding: 18px 0px;
     }
 
     .main_menu .navbar-brand {
@@ -1330,7 +1314,6 @@
         margin-bottom: 120px;
     }
 
-
     .wsus__banner_img .img_1 {
         margin: auto;
     }
@@ -1399,7 +1382,6 @@
         height: 370px;
     }
 
-
     .wsus__about_us_img_2 {
         height: 500px;
         margin-top: 100px;
@@ -1418,7 +1400,6 @@
 
 
     /* pricing start */
-
 
     .wsus__browsejob_bg {
         padding: 20px;
@@ -1572,7 +1553,6 @@
         color: var(--colorWhite);
     }
 
-
     /* main menu end */
 
 
@@ -1629,7 +1609,6 @@
     }
 
     /* banner end */
-
 
     .wsus__category_2_item .img {
         height: 170px;
@@ -1759,7 +1738,6 @@
 
 
 
-
     /*===================================
         JOB DETAILS START
     ===================================*/
@@ -1801,7 +1779,6 @@
 
 
 
-
     /*===================================
         CONTACT START
     ===================================*/
@@ -1822,6 +1799,7 @@
     /*===================================
         CONTACT END
     ===================================*/
+
 
 
     /*===================================
@@ -1862,7 +1840,6 @@
 
 
 
-
     /*===================================
         COMPANIES START
     ===================================*/
@@ -1899,7 +1876,6 @@
 
 
 
-
     /*===================================
         BLOG DETAILS START
     ===================================*/
@@ -1915,7 +1891,6 @@
     .wsus_blog_details_review_two .text {
         width: 58%;
     }
-
 
     .wsus__blog_details_comment .text {
         width: 88%;
@@ -1966,8 +1941,6 @@
 
 
 
-
-
     /*===================================
         ERROR START
     ===================================*/
@@ -1986,41 +1959,115 @@
 
 
 
+    /*===================================
+        LOGIN $ REG $ FORGOT PASS START
+    ===================================*/
 
+    .wsus__login_contant {
+        padding: 40px 48px 40px 45px;
+    }
 
+    .wsus__back_home_btn {
+        top: 985px;
+    }
 
+    .wsus__login_contant .or_shape b::before {
+        width: 275px;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .wsus__login_contant .or_shape b::after {
+        width: 275px;
+    }
 
     /*===================================
-        COMMON START
+        LOGIN $ REG $ FORGOT PASS END
     ===================================*/
 
 
-    /* common start */
-    /* common end */
 
-    /*===================================
-        COMMON END
-    ===================================*/
+    /*=============================
+        DASHBOARD START
+    =============================*/
+
+    /* overview start */
+
+    .wsus__dash_earning {
+        padding: 20px;
+    }
+
+    .wsus__dash_earning h6 {
+        font-size: 12px;
+    }
+
+    .wsus__dashboard_graph .simple-bar-graph__columns {
+        height: 180px !important;
+    }
+
+    .wsus__dash_course_table .table tr th,
+    .wsus__dash_course_table .table tr td {
+        padding: 20px 0px 20px 20px;
+    }
+
+    .wsus__dashboard_contant_top {
+        padding: 20px 20px 15px 20px;
+    }
+
+    /* overview end */
+
+
+    /* profile start */
+
+    .wsus__dashboard_contant_btn {
+        margin-top: 20px;
+    }
+
+    .wsus__dashboard_profile_delete {
+        margin-top: 20px;
+    }
+
+    .wsus__dashboard_profile_avatar .text {
+        width: 72%;
+    }
+
+    /* profile end */
+
+
+    /* resume start */
+
+    .dash_cv_upload_btn {
+        margin-top: 20px;
+    }
+
+    .dash_add_skill_input_btn {
+        margin-top: 20px;
+    }
+
+    /* resume end */
+
+
+    /* account link start */
+
+    .wsus__dashboard_account_remove .text {
+        width: 82%;
+    }
+
+    /* account link end */
+
+
+    /* notification start */
+
+    .wsus__dashboard_notification label {
+        margin-top: 3px;
+    }
+
+    /* notification end */
+
+    /*=============================
+        DASHBOARD END
+    =============================*/
+
 
 }
-
-
 
 
 
@@ -2046,7 +2093,7 @@
     /* main menu start */
 
     .main_menu {
-        padding: 17px 0px;
+        padding: 18px 0px;
     }
 
     .main_menu .navbar-brand {
@@ -2146,7 +2193,6 @@
     .wsus__banner_img {
         margin-bottom: 100px;
     }
-
 
     .wsus__banner_img .img_1 {
         margin: auto;
@@ -2570,8 +2616,6 @@
 
     /* explore end */
 
-
-
     /* job possition start */
 
     .wsus__job_position_bg {
@@ -2667,8 +2711,6 @@
     ===================================*/
 
 
-
-
     /*===================================
         ABOUT US START
     ===================================*/
@@ -2711,8 +2753,6 @@
     .wsus__card_company {
         margin-top: 60px;
     }
-
-
 
     .wsus__about_categories_accordion h4 {
         font-size: 28px;
@@ -2775,7 +2815,6 @@
         margin-top: 220px;
     }
 
-
     .wsus__resume_skill li {
         padding: 45px 53px 40px 53px;
     }
@@ -2783,7 +2822,6 @@
     /*===================================
         CANDIDATE RESUME END
     ===================================*/
-
 
 
     /*===================================
@@ -2822,8 +2860,6 @@
     ===================================*/
 
 
-
-
     /*===================================
         PAYMENT START
     ===================================*/
@@ -2844,7 +2880,6 @@
     /*===================================
         PAYMENT END
     ===================================*/
-
 
 
 
@@ -2905,8 +2940,6 @@
 
 
 
-
-
     /*===================================
         BLOG DETAILS START
     ===================================*/
@@ -2959,6 +2992,7 @@
     ===================================*/
 
 
+
     /*===================================
         COMPANY DETAILS START
     ===================================*/
@@ -2981,6 +3015,7 @@
     ===================================*/
 
 
+
     /*===================================
         ERROR START
     ===================================*/
@@ -2999,38 +3034,114 @@
 
 
 
+    /*===================================
+        LOGIN $ REG $ FORGOT PASS START
+    ===================================*/
 
+    .wsus__login_contant {
+        padding: 40px 35px 40px 35px;
+    }
 
+    .wsus__back_home_btn {
+        top: 740px;
+    }
 
+    .wsus__login_contant .or_shape b::before {
+        width: 202px;
+    }
 
-
-
-
-
-
-
-
+    .wsus__login_contant .or_shape b::after {
+        width: 202px;
+    }
 
     /*===================================
-        COMMON START
+        LOGIN $ REG $ FORGOT PASS END
     ===================================*/
 
 
-    /* common start */
-    /* common end */
+    /*=============================
+        DASHBOARD START
+    =============================*/
 
-    /*===================================
-        COMMON END
-    ===================================*/
+
+    /* overview start */
+    .wsus__dashboard_contant_top {
+        padding: 25px 25px 20px 25px;
+    }
+
+    .wsus__dashboard_heading h5 {
+        font-size: 18px;
+    }
+
+    .wsus__dash_course_table .table tr th,
+    .wsus__dash_course_table .table tr td {
+        padding: 20px 0px 20px 20px;
+    }
+
+    .wsus__dashboard_barfiller {
+        margin-top: 30px;
+    }
+
+    /* overview end */
+
+
+    /* profile start */
+
+    .wsus__dashboard_contant_btn {
+        margin-top: 20px;
+    }
+
+    .wsus__dashboard_profile_delete {
+        margin-top: 20px;
+    }
+
+    /* profile end */
+
+
+    /* resume start */
+
+    .dash_cv_upload_btn {
+        margin-top: 20px;
+    }
+
+    .dash_skill_exp_education_nav li button {
+        padding: 6px 19px 10px 19px;
+    }
+
+    .dash_add_skill_input_btn {
+        margin-top: 20px;
+    }
+
+    /* resume end */
+
+    /* account link start */
+
+    .wsus__dashboard_account_remove .text {
+        width: 82%;
+    }
+
+    /* account link end */
+
+
+    /* notification start */
+
+
+    .wsus__dashboard_notification label {
+        margin-top: 3px;
+    }
+
+    /* notification end */
+
+    /*=============================
+        DASHBOARD END
+    =============================*/
+
 
 }
 
 
 
-
-
 @media (max-width: 575.99px) {
-
 
     /*===================================
         HOME PAGE 1 START
@@ -3052,7 +3163,7 @@
     /* main menu start */
 
     .main_menu {
-        padding: 17px 0px;
+        padding: 18px 0px;
     }
 
     .main_menu .navbar-brand {
@@ -3593,7 +3704,6 @@
     /* explore end */
 
 
-
     /* job possition start */
 
     .wsus__job_position_bg {
@@ -3639,7 +3749,6 @@
         margin-top: 30px;
     }
 
-
     .wsus__apps_area {
         padding: 30px 30px 30px 35px;
     }
@@ -3657,11 +3766,9 @@
         font-size: 18px;
     }
 
-
     .wsus__testimonial_item::after {
         display: none;
     }
-
 
     .wsus__carear_location_item .img {
         height: auto;
@@ -3695,7 +3802,6 @@
     .wsus__footer_app_dawnload ul li a {
         width: 125px;
     }
-
 
     .wsus__footer_2 .wsus__copy_right {
         margin-top: 100px;
@@ -3771,7 +3877,6 @@
     .wsus__card_company ul li {
         width: 46%;
     }
-
 
     .wsus__about_categories_accordion h4 {
         font-size: 28px;
@@ -4147,7 +4252,6 @@
         padding: 25px 35px 20px 25px;
     }
 
-
     .wsus__events_google_map iframe {
         height: 250px;
     }
@@ -4239,64 +4343,166 @@
     ===================================*/
 
 
+    /*===================================
+        LOGIN $ REG $ FORGOT PASS START
+    ===================================*/
+
+    .wsus__login_contant .logo {
+        width: 100px;
+        height: 30px;
+    }
+
+    .wsus__login_contant h2 {
+        font-size: 26px;
+    }
+
+    .wsus__login_contant {
+        padding: 25px 25px 25px 25px;
+    }
+
+    .wsus__login_contant .or_shape b::after {
+        width: 100px;
+    }
+
+    .wsus__login_contant .or_shape b::before {
+        width: 100px;
+    }
+
+    .wsus__another_login_option li {
+        width: 100%;
+    }
+
+    .wsus__back_home_btn {
+        top: 430px;
+        font-size: 14px;
+    }
+
+    .wsus__login_person_btn li {
+        width: 100%;
+    }
+
+    .wsus__login_person_btn li .common_btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .wsus__forgot_input .common_btn {
+        position: initial;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    /*===================================
+        LOGIN $ REG $ FORGOT PASS END
+    ===================================*/
+
+
+    /*=============================
+        DASHBOARD START
+    =============================*/
+
+    /* overview start */
+    .wsus__dashboard_graph .simple-bar-graph__columns {
+        height: 150px !important;
+    }
+
+    .wsus__dashboard_contant_top {
+        padding: 20px 20px 20px 20px;
+    }
+
+    .wsus__dashboard_heading h5 {
+        font-size: 18px;
+    }
+
+    .wsus__dash_course_table .table tr th,
+    .wsus__dash_course_table .table tr td {
+        padding: 20px 0px 20px 20px;
+    }
+
+    .wsus__dashboard_barfiller {
+        margin-top: 30px;
+    }
+
+    /* overview end */
+
+
+    /* profile start */
+
+    .wsus__dashboard_contant_btn {
+        margin-top: 20px;
+    }
+
+    .wsus__dashboard_profile_info li span {
+        width: 100%;
+    }
+
+    .wsus__dashboard_profile_delete {
+        margin-top: 20px;
+    }
+
+    .wsus__dashboard_profile .text {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    /* profile end */
+
+
+    /* resume start */
+
+    .dash_cv_upload_btn .common_btn {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .dash_cv_upload_btn .cancel_btn {
+        margin-left: 0;
+    }
+
+    .dash_skill_exp_education_nav li {
+        width: 100%;
+    }
+
+    .dash_skill_exp_education_nav li button {
+        width: 100%;
+    }
+
+    .dash_add_skill {
+        padding: 20px 20px 20px 20px;
+    }
+
+    .dash_add_skill ul li a {
+        padding: 7px 7px;
+    }
+
+    .dash_add_skill_input_btn button {
+        width: 100%;
+    }
+
+    /* resume end */
 
 
 
+    /* account link start */
+
+    .wsus__dashboard_account_remove .text {
+        width: 70%;
+    }
+
+    /* account link end */
 
 
+    /* notification start */
 
+    .wsus__dashboard_notification label {
+        margin-top: 3px;
+        width: 90%;
+    }
 
+    /* notification end */
 
-
-
-
-
-
+    /*=============================
+        DASHBOARD END
+    =============================*/
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*===================================
-    COMMON START
-===================================*/
-
-
-
-/*===================================
-    COMMON END
-===================================*/
