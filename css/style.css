@@ -98,12 +98,6 @@ button {
     background: var(--LightBg);
 }
 
-/* .container_extra {
-    width: 1580px !important;
-    margin: 0 auto;
-} */
-
-
 .wsus__section_heading {
     text-align: center;
 }
@@ -241,21 +235,6 @@ button {
     box-shadow: 0px 2px 6px 0px rgba(20, 56, 181, 0.50);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .nextArrow,
 .prevArrow {
     position: absolute;
@@ -281,7 +260,6 @@ button {
     -o-transition: all linear .3s;
 }
 
-
 .nextArrow {
     left: auto;
     right: 0;
@@ -297,8 +275,6 @@ button {
     box-shadow: 0px 2px 6px 0px rgba(20, 56, 181, 0.50);
     border-color: var(--colorSecondary);
 }
-
-
 
 .slick-dots {
     display: flex;
@@ -326,7 +302,6 @@ button {
     background: transparent;
     border-color: var(--colorSecondary);
 }
-
 
 /* pagiination start */
 
@@ -379,6 +354,12 @@ button {
     border-color: transparent;
     background: linear-gradient(180deg, #3F6BEE 0%, #214BD6 100%);
     box-shadow: 0px 2px 6px 0px rgba(20, 56, 181, 0.50);
+}
+
+.wsus__pagiination .page-link:focus {
+    color: var(--coloBlack);
+    background-color: transparent;
+    box-shadow: none;
 }
 
 /* pagiination end */
@@ -459,7 +440,6 @@ button {
         -o-transform: rotate(360deg);
     }
 }
-
 
 @keyframes zoom_animi {
     from {
@@ -701,7 +681,6 @@ header .wsus__header_right li .nice-select .option {
     -o-transition: all linear .3s;
 }
 
-
 .main_menu .navbar-nav .nav-item .nav-link i {
     position: relative;
     top: 2px;
@@ -906,7 +885,6 @@ header .wsus__header_right li .nice-select .option {
 /* main menu end */
 
 
-
 /* banner start */
 
 .wsus__banner {
@@ -1040,7 +1018,6 @@ header .wsus__header_right li .nice-select .option {
     border-radius: 0;
 }
 
-
 .wsus__banner_searchbox .select2-container--default .select2-selection--single .select2-selection__rendered {
     line-height: 60px;
     color: var(--paraColor);
@@ -1052,7 +1029,6 @@ header .wsus__header_right li .nice-select .option {
     border-bottom: 2px solid rgba(3, 18, 33, 0.50);
     border-right: 2px solid rgba(3, 18, 33, 0.50);
 }
-
 
 .wsus__banner_searchbox .searchbox_4 button {
     padding: 8px 25px 10px 25px;
@@ -1446,7 +1422,6 @@ header .wsus__header_right li .nice-select .option {
 /* recruiter end */
 
 
-
 /* top company start */
 
 .wsus__top_company {
@@ -1599,7 +1574,6 @@ header .wsus__header_right li .nice-select .option {
 }
 
 /* top company end */
-
 
 
 /* team start */
@@ -2113,7 +2087,6 @@ header .wsus__header_right li .nice-select .option {
     flex-wrap: wrap;
     justify-content: end;
 }
-
 
 .wsus__browsejob_bg::after {
     position: absolute;
@@ -3051,7 +3024,6 @@ header .wsus__header_right li .nice-select .option {
 /* branding end */
 
 
-
 /* jobs 2 start */
 
 .wsus__jobs_2 {
@@ -3226,7 +3198,6 @@ header .wsus__header_right li .nice-select .option {
     color: var(--colorSecondary);
 }
 
-
 .wsus_jobs_2_item_bottom .link:hover span {
     color: var(--colorWhite);
     background: var(--colorSecondary);
@@ -3255,7 +3226,6 @@ header .wsus__header_right li .nice-select .option {
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
 }
-
 
 .wsus_jobs_2_item:hover p i {
     transform: rotate(90deg);
@@ -3467,7 +3437,6 @@ header .wsus__header_right li .nice-select .option {
 /* job position end */
 
 
-
 /* jobs 3 start */
 
 .wsus__jobs_3 {
@@ -3559,7 +3528,6 @@ header .wsus__header_right li .nice-select .option {
 /* team 2 end */
 
 
-
 /* apps start */
 
 .wsus__apps_area {
@@ -3598,7 +3566,6 @@ header .wsus__header_right li .nice-select .option {
     text-align: end;
 }
 
-
 .wsus__spps_download_btn .common_btn_2 {
     border-radius: 6px;
     -webkit-border-radius: 6px;
@@ -3616,8 +3583,6 @@ header .wsus__header_right li .nice-select .option {
 }
 
 /* apps end */
-
-
 
 
 /* pricing 2 start */
@@ -3640,11 +3605,9 @@ header .wsus__header_right li .nice-select .option {
     box-shadow: 0px 6px 30px 0px rgba(3, 18, 33, 0.10);
 }
 
-
 .wsus__pricing_2 .wsus__pricing_2 .wsus__pricing_item h6 {
     color: var(--colorSecondary);
 }
-
 
 .wsus__pricing_2 .wsus__pricing_item .common_btn {
     border-radius: 6px;
@@ -3832,7 +3795,6 @@ header .wsus__header_right li .nice-select .option {
     -o-transition: all linear .3s;
 }
 
-
 .wsus__carear_location_item:hover .text p i {
     margin-left: 10px;
 }
@@ -3927,7 +3889,6 @@ header .wsus__header_right li .nice-select .option {
     margin-top: 20px;
 }
 
-
 .wsus__blog_2_item_text .link {
     font-size: 16px;
     font-weight: 500;
@@ -3963,9 +3924,7 @@ header .wsus__header_right li .nice-select .option {
 /* blog 2 end */
 
 
-
 /* footer 2 start */
-
 
 .wsus__footer_2 .wsus__footer_left {
     width: 80%;
@@ -4147,12 +4106,12 @@ header .wsus__header_right li .nice-select .option {
     box-shadow: none;
 }
 
-.home_dark .nice-select .option {
-    color: var(--colorWhite);
+.home_dark .wsus__header_right li::after {
+    background: rgba(255, 255, 255, 0.2);
 }
 
-.home_dark .wsus__header_right li::after {
-    display: none;
+.home_dark .nice-select .option {
+    color: var(--colorWhite);
 }
 
 .home_dark .main_menu {
@@ -4184,7 +4143,6 @@ header .wsus__header_right li .nice-select .option {
 .home_dark .main_menu .navbar-nav .nav-item .nav-link.active {
     color: var(--colorPrimary);
 }
-
 
 .home_dark .main_menu .wsus__droap_menu {
     background: #393A4B;
@@ -4470,11 +4428,9 @@ header .wsus__header_right li .nice-select .option {
 ===================================*/
 
 
-
 /*===================================
     ABOUT US START
 ===================================*/
-
 
 /* header 3 start */
 
@@ -4526,7 +4482,6 @@ header .wsus__header_right li .nice-select .option {
 }
 
 /* header 3 end */
-
 
 
 /* main menu 3 start */
@@ -4673,7 +4628,6 @@ header .wsus__header_right li .nice-select .option {
 ===================================*/
 
 
-
 /*===================================
     JOBS GRID START
 ===================================*/
@@ -4687,10 +4641,13 @@ header .wsus__header_right li .nice-select .option {
     box-shadow: var(--BoxShadow);
 }
 
+.wsus__jobs_grid .wsus_jobs_2_item .location li span {
+    top: -3px;
+}
+
 /*===================================
     JOBS GRID END
 ===================================*/
-
 
 
 /*===================================
@@ -4931,7 +4888,6 @@ header .wsus__header_right li .nice-select .option {
     border-color: var(--colorSecondary);
     background: var(--colorSecondary);
 }
-
 
 .wsus__jobs_list .wsus__jobs_item_bottom .common_btn::after {
     background: linear-gradient(180deg, #3F6BEE 0%, #214BD6 100%);
@@ -5180,7 +5136,6 @@ header .wsus__header_right li .nice-select .option {
 .wsus__pricing_page .wsus__pricing_item .common_btn::after {
     background: linear-gradient(180deg, #3F6BEE 0%, #214BD6 100%);
     box-shadow: 0px 2px 6px 0px rgba(20, 56, 181, 0.50);
-
 }
 
 /*===================================
@@ -6524,7 +6479,6 @@ header .wsus__header_right li .nice-select .option {
     font-size: 18px;
     font-weight: 500;
     padding: 11px 12px 11px 22px;
-
 }
 
 .wsus__faq_accordion .accordion-body {
@@ -6533,7 +6487,6 @@ header .wsus__header_right li .nice-select .option {
     line-height: 26px;
     color: rgba(3, 18, 33, 0.7);
     padding: 23px 25px 32px 25px;
-
 }
 
 .wsus__faq_accordion .accordion-button:not(.collapsed) {
@@ -6707,11 +6660,9 @@ header .wsus__header_right li .nice-select .option {
     border: 1px solid var(--BorderColor1);
 }
 
-
 .wsus__login_img {
     height: 100%;
 }
-
 
 .wsus__login_contant {
     padding: 40px 68px 40px 45px;
@@ -6748,11 +6699,9 @@ header .wsus__header_right li .nice-select .option {
     -o-transition: all linear .3s;
 }
 
-
 .wsus__login_contant .log_link a:hover {
     color: var(--colorBlack);
 }
-
 
 .wsus__login_form {
     margin-top: 30px;
@@ -7178,7 +7127,6 @@ header .wsus__header_right li .nice-select .option {
 ===================================*/
 
 
-
 /*===================================
     EVENTS DETAILS START
 ===================================*/
@@ -7586,7 +7534,6 @@ header .wsus__header_right li .nice-select .option {
     height: 470px;
 }
 
-
 .wsus__create_job_btn {
     margin-top: 22px;
 }
@@ -7594,7 +7541,6 @@ header .wsus__header_right li .nice-select .option {
 /*===================================
     CREATE JOB END
 ===================================*/
-
 
 
 /*===================================
@@ -7624,7 +7570,6 @@ header .wsus__header_right li .nice-select .option {
     padding: 17px 20px;
     margin-top: 15px;
 }
-
 
 .wsus__post_job_form_input.input .common_btn {
     position: absolute;
@@ -7767,7 +7712,6 @@ header .wsus__header_right li .nice-select .option {
 /*===================================
     CATEGORIES END
 ===================================*/
-
 
 
 /*===================================
@@ -9054,32 +8998,6 @@ header .wsus__header_right li .nice-select .option {
 /* jobs start */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* security start */
 
 .wsus__dashboard_email_change {
@@ -9298,58 +9216,3 @@ header .wsus__header_right li .nice-select .option {
 /*============================
     DASHBOARD END
 ============================*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*===================================
-    COMMON START
-===================================*/
-
-
-/* common start */
-/* common end */
-
-/*===================================
-    COMMON END
-===================================*/

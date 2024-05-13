@@ -1,0 +1,1760 @@
+/*================================
+    RTL CSS START
+================================*/
+* {
+    direction: rtl;
+    text-align: right;
+}
+
+.slick-list {
+    direction: ltr;
+}
+
+header .wsus__header_left li a i {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+header .wsus__header_left li {
+    padding-right: 0;
+    margin-right: 0;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+header .wsus__header_left li::after {
+    right: auto;
+    left: 0;
+}
+
+header .wsus__header_center p {
+    direction: ltr;
+}
+
+header .wsus__header_center p a i {
+    position: relative;
+    top: -2px;
+    transform: rotate(180deg);
+}
+
+header .wsus__header_right li .nice-select:after {
+    right: auto !important;
+    left: 4px !important;
+}
+
+header .wsus__header_right li::after {
+    right: auto;
+    left: 0;
+}
+
+header .wsus__header_right li:first-child {
+    padding-right: 0;
+    padding-left: 20px;
+}
+
+header .wsus__header_right li .nice-select .list {
+    left: auto;
+    right: 20px;
+}
+
+header .wsus__header_right li .nice-select .option {
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.main_menu .navbar-brand {
+    margin-right: 0;
+    margin-left: 50px;
+}
+
+.main_menu .navbar-nav .nav-item .nav-link i {
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+.navbar-expand-lg .navbar-nav {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+}
+
+.main_menu .wsus__droap_menu {
+    left: auto;
+    right: 0;
+}
+
+.main_menu .wsus__droap_menu li a::after {
+    left: auto;
+    right: -5px;
+}
+
+.right_menu ul li .menu_account b {
+    margin-left: 0;
+    margin-right: 3px;
+}
+
+.common_btn span {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.right_menu ul li .common_btn span {
+    top: 9px;
+    transform: rotate(180deg);
+}
+
+.wsus__banner_contant form {
+    margin-right: 0;
+    margin-left: 90px;
+}
+
+.wsus__banner_searchbox {
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.wsus__banner_searchbox li::after {
+    right: auto;
+    left: 0;
+}
+
+.wsus__banner_searchbox .searchbox_1 span,
+.wsus__banner_searchbox .searchbox_3 span {
+    left: auto;
+    right: 0;
+}
+
+.wsus__banner_searchbox li input {
+    padding: 19px 25px 19px 20px;
+}
+
+.wsus__banner_searchbox .searchbox_3 input {
+    padding: 19px 45px 19px 20px;
+}
+
+.wsus__banner_searchbox .searchbox_3 span {
+    left: auto !important;
+    right: 20px !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    right: auto;
+    left: 1px;
+}
+
+.wsus__banner_searchbox .select2-container--default .select2-selection--single .select2-selection__arrow b {
+    right: auto;
+    left: 20px;
+}
+
+.wsus__banner_img .img_1::after {
+    left: auto;
+    right: -77px;
+}
+
+.wsus__banner_img .img_1::before {
+    right: auto;
+    left: -33px;
+}
+
+.wsus__banner_img::after {
+    right: auto;
+    left: -60px;
+}
+
+.wsus__banner::after {
+    right: auto;
+    left: 80px;
+}
+
+.wsus__banner_searches li a i {
+    margin-right: 0;
+    margin-left: 6px;
+}
+
+.wsus__category .wsus__section_heading h2 {
+    text-align: center;
+}
+
+.wsus__category_item .text {
+    margin-left: 0;
+    margin-right: 20px;
+    padding-right: 0;
+    padding-left: 30px;
+}
+
+.wsus__category_item::after {
+    right: auto;
+    left: 20px;
+    transform: translate(-50%, -50%) rotate(180deg);
+}
+
+.wsus__category_item:hover:after {
+    right: auto;
+    left: 10px;
+}
+
+.wsus__Recruiter .wsus__section_heading h2 {
+    text-align: center;
+}
+
+.wsus__all_company_btn {
+    text-align: left;
+}
+
+.wsus__top_company_rating li i {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.wsus__Recruiter_item_top .icon .img {
+    transform: rotate(-90deg);
+}
+
+.wsus__top_company_rating li {
+    padding-right: 0;
+    margin-right: 0px;
+    padding-left: 10px;
+    margin-left: 10px;
+    border-left: 1px solid var(--BorderColor2);
+    border-right: none;
+}
+
+.wsus__top_company_item .common_btn span {
+    margin-left: 0;
+    margin-right: 6px;
+    transform: rotate(-360deg);
+}
+
+.wsus__top_company_item .common_btn span i {
+    margin-right: 0;
+}
+
+.wsus__team_img::after {
+    right: auto;
+    left: 10px;
+}
+
+.wsus__team_img a {
+    left: auto;
+    right: 10px;
+}
+
+.wsus__counter_item .text {
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.wsus__jobs .wsus__section_heading h2 {
+    text-align: center;
+}
+
+.wsus__jobs .wsus__section_heading p {
+    text-align: center;
+}
+
+.wsus__jobs_item .badgh {
+    right: auto;
+    left: 35px;
+}
+
+.wsus__jobs_item_text {
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+.wsus__jobs_item_text p i {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+.wsus__jobs_item_text ul li span {
+    margin-right: 0;
+    margin-left: 3px;
+}
+
+.wsus__jobs_item_bottom p i {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+.wsus__jobs_item_bottom .common_btn span {
+    top: 9px;
+    position: relative;
+    transform: rotate(180deg);
+}
+
+.wsus__about_us_text .common_btn span {
+    top: 9px;
+    position: relative;
+    transform: rotate(180deg);
+}
+
+.wsus__about_img_shape {
+    right: auto;
+    left: 40px;
+}
+
+.heading_left {
+    text-align: right !important;
+}
+
+.wsus__about_us_text ul li i {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.wsus__pricing_item ul li::after {
+    left: auto;
+    right: 0px;
+}
+
+.wsus__pricing_item ul li {
+    padding-left: 0;
+    padding-right: 32px;
+}
+
+.wsus__about_us::after {
+    right: auto;
+    left: 170px;
+}
+
+.wsus__pricing .wsus__section_heading h2 {
+    text-align: center;
+}
+
+.wsus__pricing .wsus__section_heading p {
+    text-align: center;
+}
+
+.wsus__browsejob_bg::after {
+    right: auto;
+    left: 440px;
+}
+
+.wsus__faq_accordion .accordion-button {
+    padding: 11px 22px 11px 12px;
+}
+
+.wsus__browsejob_btn .common_btn span {
+    top: 9px;
+    position: relative;
+    transform: rotate(180deg);
+}
+
+.wsus__blog_item .img p {
+    right: auto;
+    left: 20px;
+}
+
+.wsus__blog_item_text ul li span {
+    margin-right: 0;
+    margin-left: 2px;
+}
+
+.btn_light i {
+    margin-left: 0px;
+    margin-right: 6px;
+    position: relative;
+    top: -1px;
+    transform: rotate(180deg);
+}
+
+.wsus__blog .wsus__section_heading h2 {
+    text-align: center;
+}
+
+.wsus__blog .wsus__section_heading p {
+    text-align: center;
+}
+
+.wsus__newsletter_left .wsus__section_heading {
+    margin-left: 0;
+    margin-right: 35px;
+}
+
+.wsus__newsletter_left .img {
+    margin-left: auto;
+}
+
+.wsus__newsletter_form button {
+    right: auto;
+    left: 6px;
+}
+
+.wsus__newsletter_form input {
+    padding: 14px 20px 14px 145px;
+}
+
+.wsus__footer_link ul li a::after {
+    left: auto;
+    right: 0px;
+}
+
+.wsus__footer_link ul li a:hover,
+.wsus__footer_link ul li a.active {
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+.wsus__footer_right {
+    margin-left: 0;
+    margin-right: 80px;
+}
+
+.wsus__footer_right ul li .text {
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+.wsus__footer::before {
+    left: auto;
+    right: 60px;
+}
+
+.wsus__footer::after {
+    right: auto;
+    left: 130px;
+}
+
+.wsus__copy_right_text ul li {
+    padding-right: 0;
+    margin-right: 0;
+    padding-left: 20px;
+    margin-left: 20px;
+    border-right: none;
+    border-left: 1px solid rgba(255, 255, 255, 0.70);
+}
+
+.wsus__copy_right_text ul li:last-child {
+    padding-left: 0;
+    margin-left: 0;
+    border-left: none;
+}
+
+.progress-wrap {
+    right: auto;
+    left: 50px;
+}
+
+.home_dark .wsus__banner_searchbox .select2-container--default .select2-selection--single .select2-selection__arrow b {
+    right: 0px;
+}
+
+.home_dark .wsus__top_company_rating li {
+    border-right: none;
+    border-color: rgba(255, 255, 255, 0.10);
+}
+
+.wsus__banner_2::after {
+    left: auto;
+    right: 40px;
+}
+
+.wsus__banner_searchbox_2 .searchbox_1 span,
+.wsus__banner_searchbox_2 .searchbox_3 span {
+    left: auto;
+    right: 0;
+}
+
+.wsus__banner_searchbox_2 li::after {
+    right: auto;
+    left: 0;
+}
+
+.wsus__banner_searchbox_2 {
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.wsus__banner_searchbox_2 li input {
+    padding: 19px 25px 19px 20px;
+}
+
+.wsus__banner_searchbox_2 .searchbox_3 input {
+    padding: 19px 45px 19px 20px;
+}
+
+.wsus__banner_searchbox_2 .searchbox_3 span {
+    left: auto !important;
+    right: 20px !important;
+}
+
+.wsus__banner_searchbox_2 .select2-container--default .select2-selection--single .select2-selection__arrow b {
+    right: auto;
+    left: 20px;
+}
+
+.wsus__banner_filters li a span {
+    margin-right: 0;
+    margin-left: 2px;
+}
+
+.wsus__category_2 .wsus__section_heading h2 {
+    text-align: center;
+}
+
+.wsus__category_2 .wsus__section_heading p {
+    text-align: center;
+}
+
+.wsus__category_2_item p span {
+    transform: rotate(180deg);
+}
+
+.wsus__branding_slider {
+    border-left: none;
+    border-right: 1px solid var(--BorderColor2);
+}
+
+.wsus__branding .nextArrow {
+    right: auto;
+    left: -28px;
+    transform: rotate(180deg);
+}
+
+.wsus__branding .prevArrow {
+    left: auto;
+    right: -46px;
+    transform: rotate(180deg);
+}
+
+.wsus__jobs_2 .wsus__section_heading h2 {
+    text-align: center;
+}
+
+.wsus__jobs_2 .wsus__section_heading p {
+    text-align: center;
+}
+
+.wsus_jobs_2_item p {
+    right: auto;
+    left: 30px;
+}
+
+.wsus_jobs_2_item p i {
+    margin-right: 0;
+    margin-left: 4px;
+}
+
+.wsus_jobs_2_item .c_name::after {
+    left: auto;
+    right: 0;
+}
+
+.wsus_jobs_2_item .c_name {
+    padding-left: 0;
+    padding-right: 16px;
+}
+
+.wsus_jobs_2_item .craiteria li::after {
+    left: auto;
+    right: 0;
+}
+
+.wsus_jobs_2_item .location li span {
+    margin-right: 0;
+    margin-left: 2px;
+}
+
+.wsus_jobs_2_item .craiteria li {
+    padding-left: 0;
+    padding-right: 14px;
+}
+
+.wsus_jobs_2_item_bottom .link span i {
+    margin-left: 0px;
+    position: relative;
+    top: -2px;
+    transform: rotate(180deg);
+}
+
+.wsus__explorer_2_bg::after {
+    left: auto;
+    right: 80px;
+}
+
+.wsus__job_position_item p i {
+    margin-left: 0px;
+    margin-right: 10px;
+    top: -1px;
+    transform: rotate(180deg);
+}
+
+.wsus__job_position_item:hover p i {
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+.wsus__jobs_3 .wsus__section_heading h2 {
+    text-align: center;
+}
+
+.wsus__testimonial_item::after {
+    right: auto;
+    left: 60px;
+}
+
+.wsus__testimonial_item_bottom .text {
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+.wsus__carear_location_item .text p i {
+    margin-left: 0px;
+    margin-right: 2px;
+    position: relative;
+    top: -1px;
+    transform: rotate(180deg);
+}
+
+.wsus__carear_location_item:hover .text p i {
+    margin-right: 10px;
+}
+
+.wsus__blog_2_item_text ul li span {
+    margin-right: 0;
+    margin-left: 3px;
+}
+
+.wsus__blog_2 .wsus__section_heading h2 {
+    text-align: center;
+}
+
+.wsus__blog_2 .wsus__section_heading p {
+    text-align: center;
+}
+
+.wsus__blog_2_item_text .link i {
+    margin-left: 0px;
+    margin-right: 8px;
+    position: relative;
+    top: -1px;
+    transform: rotate(180deg);
+}
+
+.wsus__blog_2_item_text .link:hover i {
+    margin-right: 15px;
+}
+
+.wsus__footer_left_form button {
+    right: auto;
+    left: 5px;
+}
+
+.wsus__footer_left_form button i {
+    transform: rotate(-90deg);
+}
+
+.wsus__footer_left_form input {
+    padding: 13px 20px 13px 60px;
+}
+
+.wsus___breadcrumb_text h1 {
+    text-align: center;
+}
+
+.wsus___breadcrumb_text ul li a i {
+    margin-left: 0;
+    margin-right: 12px;
+}
+
+.wsus__pagiination .page-item:last-child .page-link i {
+    margin-left: 0;
+    margin-right: 6px;
+    transform: rotate(180deg);
+}
+
+.wsus__pagiination .page-item:first-child .page-link i {
+    margin-right: 0;
+    margin-left: 6px;
+    transform: rotate(180deg);
+}
+
+.wsus__sorted_wizard .select2-container--default .select2-selection--single .select2-selection__arrow b {
+    right: auto;
+    left: 20px;
+}
+
+.wsus__sorted_accordion .accordion-button::after {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.wsus__sorted_accordion .form-check-label {
+    padding-right: 22px;
+}
+
+.wsus__top_showing_selector b {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.wsus__faq_accordion .accordion-button::after {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.wsus__create_job .select2-container--default .select2-selection--single .select2-selection__arrow b {
+    right: auto;
+    left: 20px;
+}
+
+.wsus__create_job_form__btn .upload_resume {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.wsus__post_job_form_input label span {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+.wsus__post_job_form_input.input .common_btn {
+    right: auto;
+    left: 10px;
+}
+
+.wsus__post_job_form_input.input input {
+    padding: 17px 20px 17px 135px;
+}
+
+.wsus__jobs_benifits li span {
+    margin-right: 0;
+    margin-left: 3px;
+}
+
+.wsus__job_details_top_right .common_btn span {
+    position: relative;
+    top: 9px;
+    transform: rotate(180deg);
+}
+
+.wsus__job_details_top_right .badgh {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.wsus__job_information li span {
+    margin-right: 0;
+    margin-left: 14px;
+}
+
+.wsus__job_details_left ul li::after,
+.wsus__job_details_left ol li::after {
+    left: auto;
+    right: 0px;
+}
+
+.wsus__job_details_left ul li,
+.wsus__job_details_left ol li {
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+.wsus__candidate_item_top .img {
+    margin-right: 0;
+    margin-left: 25px;
+}
+
+.wsus__candidate_item_top .text p::after {
+    left: auto;
+    right: 0;
+}
+
+.wsus__candidate_item_top .text p {
+    padding-left: 0;
+    padding-right: 16px;
+}
+
+.wsus__candidate_item .rating {
+    top: 13px;
+    right: auto;
+    left: -39px;
+    transform: rotate(-49deg);
+}
+
+.wsus__candidate_item .rating i {
+    margin-right: 0;
+    margin-left: 4px;
+}
+
+.wsus__resume_candidate_details .img {
+    margin-right: 0;
+    margin-left: 25px;
+}
+
+.wsus__resume_social_media span {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.wsus__resume_candidate_btn .common_btn i {
+    margin-left: 0;
+    margin-right: 5px;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.wsus__resume_candidate .rating {
+    top: 7px;
+    right: auto;
+    left: -46px;
+    transform: rotate(-49deg);
+}
+
+.wsus__resume_candidate .rating i {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.wsus__resume_experiance li::after {
+    left: auto;
+    right: 0;
+}
+
+.wsus__resume_experiance li {
+    padding-left: 0;
+    padding-right: 32px;
+}
+
+.wsus__resume_education li::before {
+    left: auto;
+    right: 7px;
+}
+
+.wsus__resume_education li::after {
+    left: auto;
+    right: 0;
+}
+
+.wsus__resume_education li {
+    padding-right: 35px;
+    padding-bottom: 75px;
+}
+
+.wsus__contact_address li span {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.wsus__contact_form_btn .common_btn {
+    text-align: center;
+}
+
+.wsus__checkout_area {
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+.wsus__checkout .select2-container--default .select2-selection--single .select2-selection__arrow b {
+    right: auto;
+    left: 20px;
+}
+
+.wsus__checkout_payment_btn .btn_light {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.wsus__contact_checkbox .form-check-label {
+    padding-right: 20px;
+}
+
+.wsus__payment_option {
+    margin-right: 0;
+    margin-left: 65px;
+}
+
+.modal_payment_popup .modal_iteam li {
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+.modal_payment_popup .modal_iteam li::after {
+    left: auto;
+    right: 0px;
+}
+
+.modal_payment_popup .modal_closs_btn {
+    margin-right: 0 !important;
+    margin-left: 10px !important;
+}
+
+.wsus__company_page_item_top .img {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.wsus__company_page_item .link span i {
+    margin-right: 1px;
+    position: relative;
+    top: -2px;
+    transform: rotate(180deg);
+}
+
+.wsus__events_item_bottom p i {
+    margin-right: 0;
+    margin-left: 7px;
+}
+
+.wsus__blog_details_social_media h6 {
+    margin-right: 0;
+    margin-left: 6px;
+}
+
+.wsus__blog_details_img_text li {
+    padding-left: 0;
+    padding-right: 18px;
+}
+
+.wsus__blog_details_img_text li::after {
+    left: auto;
+    right: 0;
+}
+
+.wsus__blog_details_tags_shear h6 {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.wsus_blog_details_review_two .img {
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+.wsus__blog_details_comment .img {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.wsus__sidebar_wizard.searchbox form button {
+    right: auto;
+    left: 15px;
+}
+
+.wsus__recent_blog_post li a .img {
+    margin-right: 0;
+    margin-left: 25px;
+}
+
+.wsus__blog_sidebar_category li a::after {
+    left: auto;
+    right: 0;
+}
+
+.wsus__blog_sidebar_category li a {
+    padding-left: 0;
+    padding-right: 12px;
+}
+
+.wsus__events_details_text_1 ul li,
+.wsus__events_details_text_1 ol li {
+    padding-left: 0;
+    padding-right: 18px;
+}
+
+.wsus__events_details_text_1 ul li:after,
+.wsus__events_details_text_1 ol li:after {
+    left: auto;
+    right: 0;
+}
+
+.wsus__events_maneger .nextArrow {
+    right: auto;
+    left: 25px;
+    transform: rotate(180deg);
+}
+
+.wsus__events_maneger .prevArrow {
+    left: auto;
+    right: 25px;
+    transform: rotate(180deg);
+}
+
+.wsus__events_maneger_slider .text .title_2 {
+    text-align: center;
+}
+
+.wsus__events_maneger_slider .text p {
+    text-align: center;
+}
+
+.wsus__company_details_top_left p i {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+.wsus__company_details_social_media h6 {
+    margin-right: 0;
+    margin-left: 6px;
+}
+
+.wsus__company_details_top_right .common_btn i {
+    margin-left: 7px;
+    margin-right: 0px;
+    position: relative;
+    top: 1px;
+    transform: rotate(0deg);
+}
+
+.wsus__company_details_right .location i {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+.wsus__company_details_left ul li,
+.wsus__company_details_left ol li {
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+.wsus__company_details_left ul li::after,
+.wsus__company_details_left ol li::after {
+    left: auto;
+    right: 0;
+}
+
+.wsus__company_details_right_address li {
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+.wsus__company_details_right_address li::after {
+    left: auto;
+    right: 0;
+}
+
+.wsus__company_details_hireing ul li {
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+.wsus__company_details_hireing ul li::after {
+    left: auto;
+    right: 0;
+}
+
+.wsus__company_details_hireing .white_btn i {
+    margin-left: 0;
+    margin-right: 7px;
+    transform: rotate(180deg);
+}
+
+.wsus__company_details_right button i {
+    margin-left: 0;
+    margin-right: 6px;
+}
+
+.wsus__events_item_bottom .link span i {
+    margin-left: 0;
+    position: relative;
+    top: -2px;
+    transform: rotate(180deg);
+}
+
+.wsus_blog_details_review h6::after {
+    left: auto;
+    right: 0;
+}
+
+.wsus_blog_details_review h6 {
+    padding-left: 0;
+    padding-right: 30px;
+}
+
+.wsus__blog_details_comment .link span {
+    transform: rotate(180deg);
+}
+
+.wsus__events_details_social_media p span {
+    margin-right: 0;
+    margin-left: 5px;
+    top: 10px;
+    transform: rotate(180deg);
+}
+
+.wsus__login_contant {
+    padding: 40px 45px 40px 68px;
+}
+
+.wsus__login_input span {
+    right: auto;
+    left: 20px;
+}
+
+.wsus__back_home_btn {
+    right: auto;
+    left: 30px;
+}
+
+.wsus__login_btn .common_btn {
+    text-align: center;
+}
+
+.wsus__another_login_option li a span {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.wsus__forgot_input .common_btn {
+    right: auto;
+    left: 0;
+}
+
+.wsus__forgot_input input {
+    margin-top: 10px;
+    padding: 10px 20px 10px 145px;
+}
+
+.wsus__error_contant h2 {
+    text-align: center;
+}
+
+.wsus__error_contant p {
+    text-align: center;
+}
+
+.wsus__error_contant .common_btn i {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+.wsus__privacy_policy_text ol li,
+.wsus__privacy_policy_text ul li {
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+.wsus__privacy_policy_text ol li::after,
+.wsus__privacy_policy_text ul li::after {
+    left: auto;
+    right: 0;
+}
+
+
+/* dashboard start */
+
+.wsus__dashboard_sidebar_menu li a .img {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.wsus__dashboard_barfiller .barfiller .tip {
+    right: auto;
+    left: 0 !important;
+}
+
+.wsus__dash_job_table .table tr th,
+.wsus__dash_job_table .table tr td {
+    padding: 20px 0px 20px 20px;
+}
+
+.wsus__dashboard_profile .text {
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.wsus__dashboard_profile_avatar .img label {
+    right: auto;
+    left: -11px;
+}
+
+.dash_cv_upload_btn .cancel_btn {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.dash_add_skill ul li a i {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.wsus__dashboard_account_remove .text {
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.form-check .form-check-input {
+    float: right;
+}
+
+.wsus__dashboard_notification label {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.wsus__dashboard_notification label {
+    margin-left: 0;
+    margin-right: 47px;
+    margin-top: 3px;
+}
+
+/* dashboard end */
+
+/*================================
+    RTL CSS END
+================================*/
+
+
+/*================================
+    RTL RESPONSIVE CSS START
+================================*/
+
+@media (min-width: 1601px) and (max-width: 1890px) {
+
+    header .wsus__header_left li {
+        padding-left: 10px;
+        margin-left: 10px;
+    }
+
+    .wsus__banner_searchbox .searchbox_3 span {
+        right: 0px !important;
+    }
+
+    .wsus__banner_searchbox .searchbox_3 input {
+        padding: 19px 25px 19px 20px;
+    }
+
+}
+
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+
+    .wsus__banner_searchbox .searchbox_3 span {
+        right: 0px !important;
+    }
+
+    .wsus__banner_searchbox .searchbox_3 input {
+        padding: 19px 20px 19px 20px;
+    }
+
+    .wsus__banner_searchbox .searchbox_4 button {
+        text-align: center;
+    }
+
+    header .wsus__header_left li {
+        padding-left: 10px;
+        margin-left: 10px;
+    }
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+
+    .wsus__banner_searchbox .searchbox_3 span {
+        right: 0px !important;
+    }
+
+    .wsus__banner_searchbox .searchbox_3 input {
+        padding: 19px 20px 19px 20px;
+    }
+
+    .wsus__banner_searchbox .searchbox_4 button {
+        text-align: center;
+    }
+
+    .wsus__newsletter_left .wsus__section_heading {
+        width: 70%;
+    }
+
+    .wsus__footer_right {
+        margin-right: 0;
+    }
+
+    .wsus__job_details_top_right .common_btn {
+        padding: 13px 89px 13px 89px;
+    }
+
+    .wsus__job_details_top_right .badgh {
+        margin-left: 0;
+    }
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+
+    .wsus__about_img_shape {
+        left: 0;
+    }
+
+    .wsus__footer_right {
+        margin-right: 0;
+    }
+
+    .wsus__banner_2_img .img {
+        left: 0;
+        right: auto;
+    }
+
+    .wsus__banner_2_img::after {
+        right: auto;
+        left: -217px;
+    }
+
+    .wsus__branding_text h4 {
+        text-align: center;
+    }
+
+    .wsus__branding_slider {
+        border-right: none;
+    }
+
+    .wsus__payment_option {
+        margin-left: 0;
+    }
+
+    .wsus__login_contant {
+        padding: 40px 48px 40px 45px;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+
+    .main_menu .navbar-brand {
+        margin-right: 15px;
+        margin-left: 0;
+    }
+
+    .navbar-toggler {
+        margin-right: 0;
+        margin-left: 15px;
+        text-align: center;
+    }
+
+    .main_menu .navbar-nav {
+        padding-left: 0;
+        padding-right: 20px;
+    }
+
+    .right_menu {
+        padding: 20px 20px 22px 0px;
+    }
+
+    .wsus__banner_searchbox {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .wsus__banner_searchbox .searchbox_1 span,
+    .wsus__banner_searchbox .searchbox_3 span {
+        left: auto;
+        right: 20px;
+    }
+
+    .wsus__banner_searchbox .searchbox_1 input {
+        padding: 19px 45px 19px 20px;
+    }
+
+    .wsus__all_company_btn {
+        text-align: right;
+    }
+
+    .wsus__all_company_btn a {
+        left: 0;
+    }
+
+    .wsus__about_img_shape {
+        left: 0;
+    }
+
+    .wsus__newsletter_form input {
+        padding: 14px 20px 14px 20px;
+    }
+
+    .wsus__footer_right {
+        margin-right: 0;
+    }
+
+    .wsus__newsletter_form button {
+        text-align: center;
+    }
+
+    .wsus__banner_searchbox_2 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .wsus__banner_searchbox_2 .searchbox_1 span,
+    .wsus__banner_searchbox_2 .searchbox_3 span {
+        right: 20px;
+    }
+
+    .wsus__banner_searchbox_2 li input {
+        padding: 19px 45px 19px 20px;
+    }
+
+    .wsus__banner_searchbox_2 .searchbox_4 .common_btn_2 {
+        text-align: center;
+    }
+
+    .wsus__branding_text h4 {
+        text-align: center;
+    }
+
+    .wsus__branding .prevArrow {
+        right: -28px;
+    }
+
+    .wsus__branding_slider {
+        border-right: none;
+    }
+
+    .wsus__payment_option {
+        margin-left: 0;
+    }
+
+    .wsus__login_contant {
+        padding: 40px 48px 40px 45px;
+    }
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+
+    .main_menu .navbar-brand {
+        margin-right: 15px;
+        margin-left: 0;
+    }
+
+    .navbar-toggler {
+        margin-right: 0;
+        margin-left: 15px;
+        text-align: center;
+    }
+
+    .main_menu .navbar-nav {
+        padding-left: 0;
+        padding-right: 20px;
+    }
+
+    .right_menu {
+        padding: 20px 20px 22px 0px;
+    }
+
+    .wsus__banner_contant form {
+        margin-left: 0px;
+    }
+
+    .wsus__banner_searchbox {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .wsus__banner_searchbox .searchbox_1 span,
+    .wsus__banner_searchbox .searchbox_3 span {
+        right: 20px;
+    }
+
+    .wsus__banner_searchbox .searchbox_1 input {
+        padding: 19px 45px 19px 20px;
+    }
+
+    .wsus__banner_searchbox .searchbox_4 button {
+        text-align: center;
+    }
+
+    .wsus__explorer_contant .text h2 {
+        text-align: center;
+    }
+
+    .wsus__explorer_contant .text p {
+        text-align: center;
+    }
+
+    .wsus__all_company_btn {
+        text-align: right;
+    }
+
+    .wsus__all_company_btn a {
+        left: auto;
+        right: 0px;
+    }
+
+    .wsus__jobs_item_text {
+        margin-right: 0;
+    }
+
+    .wsus__about_img_shape {
+        left: 0px;
+    }
+
+    .wsus__newsletter_left .wsus__section_heading {
+        margin-right: 0;
+    }
+
+    .wsus__footer_right {
+        margin-right: 0;
+    }
+
+    .wsus__newsletter_form button {
+        text-align: center;
+    }
+
+    .wsus__newsletter_form input {
+        padding: 14px 20px 14px 20px;
+    }
+
+    .wsus__banner_searchbox_2 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .wsus__banner_searchbox_2 .searchbox_1 span,
+    .wsus__banner_searchbox_2 .searchbox_3 span {
+        right: 20px;
+    }
+
+    .wsus__banner_searchbox_2 li input {
+        padding: 19px 45px 19px 20px;
+    }
+
+    .wsus__banner_searchbox_2 .searchbox_4 .common_btn_2 {
+        text-align: center;
+    }
+
+    .wsus__branding_text h4 {
+        text-align: center;
+    }
+
+    .wsus__branding_slider {
+        border-right: none;
+    }
+
+    .wsus__branding .prevArrow {
+        right: -32px;
+    }
+
+    .wsus__footer_left_form input {
+        padding: 13px 20px 13px 20px;
+    }
+
+    .wsus__footer_left_form button {
+        top: 0px;
+        right: auto !important;
+        left: -60px !important;
+    }
+
+    .wsus__payment_option {
+        margin-left: 0;
+    }
+
+    .wsus__login_contant {
+        padding: 40px 35px 40px 35px;
+    }
+
+
+    /* dashboard start */
+
+    .wsus__dashboard_profile .text {
+        margin-right: 0;
+    }
+
+    .wsus__dashboard_profile_avatar .text {
+        width: 76%;
+        margin-right: 20px;
+    }
+
+    /* dashboard end */
+
+}
+
+
+@media (max-width: 575.99px) {
+
+    .main_menu .navbar-brand {
+        margin-right: 15px;
+        margin-left: 0;
+    }
+
+    .navbar-toggler {
+        margin-right: 0;
+        margin-left: 15px;
+        text-align: center;
+    }
+
+    .main_menu .navbar-nav {
+        padding-left: 0;
+        padding-right: 20px;
+    }
+
+    .right_menu {
+        padding: 20px 20px 22px 0px;
+    }
+
+    .wsus__banner_contant form {
+        margin-right: 0;
+        margin-left: 0px;
+    }
+
+    .wsus__banner_searchbox {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .wsus__banner_searchbox .searchbox_1 input {
+        padding: 19px 45px 19px 20px;
+    }
+
+    .wsus__banner_searchbox .searchbox_1 span,
+    .wsus__banner_searchbox .searchbox_3 span {
+        left: auto;
+        right: 20px;
+    }
+
+    .wsus__banner_searchbox .searchbox_4 button {
+        text-align: center;
+    }
+
+    .wsus__explorer_contant .text h2 {
+        text-align: center;
+    }
+
+    .wsus__explorer_contant .text p {
+        text-align: center;
+    }
+
+    .wsus__all_company_btn a {
+        left: auto;
+        right: -102px;
+    }
+
+    .wsus__jobs_item_text {
+        margin-right: 0;
+    }
+
+    .wsus__about_img_shape {
+        left: 0;
+    }
+
+    .wsus__newsletter_form input {
+        padding: 14px 20px 14px 20px;
+    }
+
+    .wsus__newsletter_form button {
+        text-align: center;
+    }
+
+    .wsus__footer_right {
+        margin-right: 0;
+    }
+
+    .wsus__banner_searchbox_2 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .wsus__banner_searchbox_2 .searchbox_1 span,
+    .wsus__banner_searchbox_2 .searchbox_3 span {
+        right: 20px;
+    }
+
+    .wsus__banner_searchbox_2 li input {
+        padding: 19px 45px 19px 20px;
+    }
+
+    .wsus__banner_searchbox_2 .searchbox_4 .common_btn_2 {
+        text-align: center;
+    }
+
+    .wsus__branding .prevArrow {
+        right: -36px;
+    }
+
+    .wsus__branding_text h4 {
+        text-align: center;
+    }
+
+    .wsus__branding_slider {
+        border-right: none;
+    }
+
+    .wsus__footer_left_form button {
+        right: auto !important;
+        left: -60px;
+        top: 0;
+    }
+
+    .wsus__newsletter_left .wsus__section_heading {
+        margin-right: 0;
+    }
+
+    .wsus__post_job_upload_cv .text span {
+        text-align: center;
+    }
+
+    .wsus__job_details_top_right .badgh {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+
+    .wsus__checkout_area {
+        margin-left: 0;
+    }
+
+    .wsus__checkout_payment_btn .btn_light {
+        margin-left: 0;
+    }
+
+    .wsus__payment_option {
+        margin-left: 0;
+    }
+
+    .wsus__events_details_right .wsus__card_company {
+        padding: 25px 25px 20px 25px;
+    }
+
+    .wsus__faq_accordion .accordion-button::after {
+        margin-right: 10px;
+        margin-left: 0px;
+    }
+
+    .wsus__login_contant {
+        padding: 25px 25px 25px 25px;
+    }
+
+    .wsus__forgot_input input {
+        padding: 10px 20px 10px 20px;
+    }
+
+
+    /* dashboard start */
+
+    .wsus__dashboard_profile .text {
+        margin-right: 0;
+    }
+
+    .dash_cv_upload_btn .cancel_btn {
+        margin-right: 0;
+    }
+
+    .dash_cv_upload_btn .common_btn {
+        text-align: center;
+    }
+
+    .dash_add_skill_input_btn button {
+        text-align: center;
+    }
+
+    .wsus__dashboard_notification .form-switch {
+        padding-left: 0;
+    }
+
+    .wsus__dashboard_notification label {
+        width: 76%;
+    }
+
+    /* dashboard end */
+
+}
+
+/*================================
+    RTL RESPONSIVE CSS END
+================================*/

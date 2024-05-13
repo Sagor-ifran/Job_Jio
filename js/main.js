@@ -46,8 +46,8 @@ $(function () {
     $('.count').countUp();
 
 
-    // //=======COURSORE POINTER======
-    // init_pointer({});
+    //=======COURSORE POINTER======
+    init_pointer({});
 
 
     //=======RECRUITER======
