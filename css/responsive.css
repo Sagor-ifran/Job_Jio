@@ -200,6 +200,10 @@
         font-size: 16px;
     }
 
+    .wsus__all_company_btn a {
+        top: 105px;
+    }
+
     .wsus__team_img {
         height: 210px;
     }
@@ -218,6 +222,10 @@
 
     .wsus__browsejob_btn {
         gap: 10px;
+    }
+
+    .wsus__browsejob_bg {
+        background-position: right !important;
     }
 
     .wsus__process_img {
@@ -567,10 +575,6 @@
         LOGIN $ REG $ FORGOT PASS START
     ===================================*/
 
-    .wsus__another_login_option li a {
-        padding: 13px 18px 12px 17px;
-    }
-
     .wsus__login_contant .or_shape b::before {
         width: 196px;
     }
@@ -675,7 +679,7 @@
     }
 
     .wsus__all_company_btn a {
-        top: 34px;
+        top: 105px;
     }
 
     .wsus__team_img {
@@ -721,6 +725,10 @@
 
     .wsus__process_img {
         height: 500px;
+    }
+
+    .wsus__browsejob_bg {
+        background-position: right !important;
     }
 
     .wsus__process_text.process_text_2 {
@@ -821,18 +829,25 @@
         display: none;
     }
 
-    .wsus__job_position_img {
-        height: 470px;
-    }
-
-    .wsus__job_position_bg::after {
-        display: none;
+    .wsus__explorer_2_bg {
+        background-position: right !important;
     }
 
     .wsus__job_position_img {
-        height: 470px;
-        margin-top: 30px;
-        margin-bottom: 80px;
+        height: 260px;
+    }
+
+    .wsus__job_position_item .title_2 {
+        font-size: 17px;
+    }
+
+    .wsus__job_position_item {
+        padding: 12px 10px 12px 10px;
+    }
+
+    .wsus__job_position_bg {
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     .wsus__apps_img {
@@ -1107,10 +1122,6 @@
         width: 390px;
     }
 
-    .wsus__another_login_option li {
-        width: 49%;
-    }
-
     .wsus__login_contant {
         padding: 40px 48px 40px 45px;
     }
@@ -1209,9 +1220,11 @@
 
     .main_menu .navbar-nav {
         gap: 0px;
-        line-height: 65px;
+        line-height: 53px;
         background: var(--colorWhite);
         padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .main_menu .wsus__droap_menu {
@@ -1221,8 +1234,15 @@
 
     .right_menu {
         background: var(--colorWhite);
-        padding: 20px 0px 22px 20px;
+        padding: 40px 0px 42px 20px;
         margin-top: -1px;
+        border-top: 1px solid var(--BorderColor1);
+        border-bottom: 1px solid var(--BorderColor1);
+    }
+
+
+    .right_menu ul {
+        gap: 38px;
     }
 
     /* main menu end */
@@ -1332,9 +1352,12 @@
         line-height: 48px !important;
     }
 
+    .wsus__all_company_btn {
+        text-align: left;
+    }
+
     .wsus__all_company_btn a {
-        top: -5px;
-        left: -498px;
+        position: initial;
     }
 
     .wsus__top_company_nav {
@@ -1393,8 +1416,7 @@
     }
 
     .wsus__process_img {
-        height: 900px;
-        margin-bottom: 40px;
+        height: 440px;
     }
 
     .wsus__process_shape {
@@ -1411,6 +1433,10 @@
 
     .wsus__browsejob_bg::after {
         display: none;
+    }
+
+    .wsus__browsejob_bg {
+        background-position: right !important;
     }
 
     /* pricing end */
@@ -2075,9 +2101,11 @@
 
     .main_menu .navbar-nav {
         gap: 0px;
-        line-height: 65px;
+        line-height: 53px;
         background: var(--colorWhite);
         padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .main_menu .wsus__droap_menu {
@@ -2087,8 +2115,14 @@
 
     .right_menu {
         background: var(--colorWhite);
-        padding: 20px 0px 22px 20px;
+        padding: 40px 0px 42px 20px;
         margin-top: -1px;
+        border-top: 1px solid var(--BorderColor1);
+        border-bottom: 1px solid var(--BorderColor1);
+    }
+
+    .right_menu ul {
+        gap: 38px;
     }
 
     /* main menu end */
@@ -2204,9 +2238,12 @@
 
     /* company start */
 
+    .wsus__all_company_btn {
+        text-align: left;
+    }
+
     .wsus__all_company_btn a {
-        top: -5px;
-        left: -319px;
+        position: initial;
     }
 
     .wsus__top_company_nav {
@@ -2274,17 +2311,17 @@
     /* about us start */
 
     .wsus__about_us_img_1 {
-        height: 570px;
+        height: 280px;
     }
 
     .wsus__about_us_img_2 {
-        height: 570px;
-        margin-top: 25px;
+        height: 360px;
+        margin-top: 80px;
     }
 
     .wsus__about_img_shape {
-        right: 242px;
-        bottom: 0;
+        right: -6px;
+        bottom: 0px;
     }
 
     .wsus__about_us_text {
@@ -2332,6 +2369,10 @@
 
     .wsus__browsejob_bg::after {
         display: none;
+    }
+
+    .wsus__browsejob_bg {
+        background-position: right !important;
     }
 
     /* pricing end */
@@ -2938,7 +2979,7 @@
 
     .wsus__events_maneger .nextArrow,
     .wsus__events_maneger .prevArrow {
-        top: 220px;
+        top: 223px;
     }
 
     .wsus__events_details_right_map iframe {
@@ -3133,9 +3174,11 @@
 
     .main_menu .navbar-nav {
         gap: 0px;
-        line-height: 65px;
+        line-height: 53px;
         background: var(--colorWhite);
         padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .main_menu .wsus__droap_menu {
@@ -3145,8 +3188,14 @@
 
     .right_menu {
         background: var(--colorWhite);
-        padding: 20px 0px 22px 20px;
+        padding: 37px 0px 42px 20px;
         margin-top: -1px;
+        border-top: 1px solid var(--BorderColor1);
+        border-bottom: 1px solid var(--BorderColor1);
+    }
+
+    .right_menu ul {
+        gap: 38px;
     }
 
     /* main menu end */
@@ -3298,9 +3347,12 @@
         height: 20px;
     }
 
+    .wsus__all_company_btn {
+        text-align: left;
+    }
+
     .wsus__all_company_btn a {
-        top: -10px;
-        left: -102px;
+        position: initial;
     }
 
     .wsus__top_company_nav {
@@ -3403,6 +3455,10 @@
 
     .wsus__process_text.process_text_3 {
         margin-top: 30px;
+    }
+
+    .wsus__browsejob_bg {
+        background-position: right !important;
     }
 
     /* pricing end */
@@ -4200,6 +4256,15 @@
         height: 250px;
     }
 
+    .wsus__events_maneger_slider .img {
+        height: auto;
+    }
+
+    .wsus__events_maneger .nextArrow,
+    .wsus__events_maneger .prevArrow {
+        top: 115px;
+    }
+
     /*===================================
         EVENTS DETAILS END
     ===================================*/
@@ -4310,9 +4375,6 @@
         width: 100px;
     }
 
-    .wsus__another_login_option li {
-        width: 100%;
-    }
 
     .wsus__back_home_btn {
         top: 430px;
